@@ -54,17 +54,16 @@
 \usepackage[printonlyused]{acronym}
 \usepackage[intoc]{nomencl}
 
-\renewcommand{\nomname}{Abkürzungsverzeichnis und Glossar}
-\setlength{\nomlabelwidth}{.25\hsize}
-\renewcommand{\nomlabel}[1]{#1 \dotfill}
-\setlength{\nomitemsep}{-\parsep}
+%Kopfzeile nach Koma Script
+\usepackage{scrlayer-scrpage}
+\pagestyle{scrheadings}
+\clearpairofpagestyles{}
 
 %nicht einrücken nach Absatz
 \setlength{\parindent}{0pt}
 
 %Schönere Tabellen
 \usepackage{tabularx} % Tabellen mit automatischen Zeilenumbruch in der Zelle
-
 \usepackage{hyperref}
 \usepackage{pdfpages}
 
@@ -102,21 +101,23 @@
 % ============= Dokumentbeginn =============
 
 \begin{document}
-\ofoot{}
+
 \include{02_titelseite.tex}
-\ofoot{\pagemark\\[4ex]}
 
-%Seitennummerierung: Vor dem Hauptteil in großen Römischen Buchstaben 
-
+%Kopf und Fußzeilen einstellen; Seitennummerierung in Röm. Buchstaben
 \pagenumbering{Roman}
-\phantomsection{} % Sorgt für korrekte Aufnahme des Inhaltsverzeichnisses in das Inhaltsverzeichnis
-\addcontentsline{toc}{chapter}{Inhaltsverzeichnis}
+\ihead{}
+\chead{}
+\ohead{\pagemark\\[4ex]}
+\ifoot{}
+\cfoot{}
+\ofoot{}
+%\phantomsection{} % Sorgt für korrekte Aufnahme des Inhaltsverzeichnisses in das Inhaltsverzeichnis
+%\addcontentsline{toc}{chapter}{Inhaltsverzeichnis}
 \tableofcontents{}
-\renewcommand{\thepage}{\Roman{page}}
-
 
 % pagestyle für gesamtes Dokument aktivieren
-%\pagestyle{fancy}
+\pagestyle{fancy}
 
 %Verzeichnis aller Bilder
 \listoffigures
