@@ -102,11 +102,6 @@
 % ============= Dokumentbeginn =============
 
 \begin{document}
-\setcounter{secnumdepth}{3}		
-\setcounter{tocdepth}{2}		%Nummerierungsebenen im Inhaltsverzeichnis
-
-%Deckblatt ohne Kopf- und Fußzeile sowie Seitenzahl
-\pagestyle{empty}
 \ofoot{}
 \include{02_titelseite.tex}
 \ofoot{\pagemark\\[4ex]}
@@ -140,9 +135,11 @@
    \acro{I2C}[I²C]{Inter-Integrated Circuit}
 \end{acronym} 
 
-%\setcounter{page}{0}
-%\pagenumbering{arabic}
-%\renewcommand{\thepage}{\arabic{page}}
+
+\setcounter{page}{0}
+\pagenumbering{arabic}
+\renewcommand{\thepage}{\arabic{page}}
+
 
 \include{04_einleitung}
 

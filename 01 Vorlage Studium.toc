@@ -1,18 +1,18 @@
 \babel@toc {ngerman}{}\relax 
 \contentsline {chapter}{Inhaltsverzeichnis}{I}{section*.1}%
-\contentsline {chapter}{\nonumberline Abkürzungsverzeichnis}{V}{chapter*.5}%
-\contentsline {chapter}{\numberline {1}Einleitung}{VI}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Grundlagen}{VII}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Beispielkapitel}{VII}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Beispielunterkapitel}{VII}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Stand der Technik}{VIII}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Klassifizierung von Beispielen}{VIII}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Themenbezogene Veröffentlichungen}{VIII}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Entwicklung der Sensorik}{IX}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Grobkonzept der Sensorik}{IX}{section.4.1}%
-\contentsline {chapter}{\numberline {5}Ergebnisse}{X}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Diskussion}{XI}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Zusammenfassende Bewertung}{XI}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Ausblick}{XI}{section.6.2}%
-\contentsline {section}{\nonumberline Eidesstattliche Erklärung}{XII}{section*.10}%
+\contentsline {chapter}{\nonumberline Abkürzungsverzeichnis}{1}{chapter*.5}%
+\contentsline {chapter}{\numberline {1}Einleitung}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Grundlagen}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Beispielkapitel}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Beispielunterkapitel}{3}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Stand der Technik}{4}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Klassifizierung von Beispielen}{4}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Themenbezogene Veröffentlichungen}{4}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Entwicklung der Sensorik}{5}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Grobkonzept der Sensorik}{5}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Ergebnisse}{6}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Diskussion}{7}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Zusammenfassende Bewertung}{7}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Ausblick}{7}{section.6.2}%
+\contentsline {section}{\nonumberline Eidesstattliche Erklärung}{8}{section*.9}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
