@@ -1,168 +1,65 @@
-%Dokumentklasse
-\documentclass[a4paper,12pt]{scrreprt}
-\usepackage[left= 2cm,top=2cm, right = 4cm, bottom = 2cm]{geometry}
-\addtokomafont{disposition}{\rmfamily}
+\documentclass[
+    12pt, % Schriftgröße
+    ngerman, % für Umlaute, Silbentrennung etc.
+    a4paper, % Papierformat
+    oneside, % einseitiges Dokument
+    parskip=half, % Abstand zwischen Absätzen (halbe Zeile)
+    headings=normal, % Größe der Überschriften verkleinern
+    listof=totoc, % Verzeichnisse im Inhaltsverzeichnis aufführen
+    bibliography=totoc, % Literaturverzeichnis im Inhaltsverzeichnis aufführen
+    index=totoc, % Index im Inhaltsverzeichnis aufführen
+    captions=tableheading, % Beschriftung von Tabellen unterhalb ausgeben
+    final % Status des Dokuments (final/draft)
+]{scrbook}
 
-% Dokumentinformationen
-\usepackage[
-	pdftitle={Auslegung eines Druckbehälters nach Merkblatt AD2000},
-	pdfsubject={},
-	pdfauthor={Steffen Specker},
-	pdfkeywords={},	
-	hidelinks
-]{hyperref}
-
-
-% Standard Packages
 \usepackage[utf8]{inputenc}
-\usepackage[english,ngerman]{babel} %Landessprache Deutsch
-\usepackage[T1]{fontenc} % Wörtertrennung etc.
-
-%Graphiken
-\usepackage{graphicx, subfig}  		%Zum Einbinden von Bildern 
-\usepackage[dvips,final]{graphicx}	%JPG Graphiken einbinden
-\graphicspath{{/img}}				%Hier liegen die Bilder
+\usepackage[ngerman]{babel} %Landessprache Deutsch
+\usepackage[T1]{fontenc}
+\usepackage{graphicx, subfig}
 
 
-\usepackage{eurosym}
-\usepackage{textcomp} 	%Euro Zeichen etc.
-
-%Schriftzeichen 
-\usepackage{fancyhdr}	%Kopf und Fußzeilen
-\usepackage{color}		%einstellbare Schriftfarben
-\usepackage{lmodern} 	%bessere SChrift in der pdf
-\usepackage{relsize} 	%Schriftgröße relativ festlegen
-
-%für Index-Ausgabe mit \printindex
-\usepackage{makeidx}
-
-%Bessere Unterstreichungen
-\usepackage[normalem]{ulem}
-
-% zusätzliche Schriftzeichen der American Mathematical Society
-\usepackage{amsfonts}
-\usepackage{amsmath}
-\usepackage{Times}
-\usepackage{mathptmx}
-
-%Einfache Definition der Zeilenabstände und Seitenränder etc.
+\usepackage{fancyhdr}
+\usepackage{color}
+\usepackage{lmodern} % bessere Fonts
+\usepackage{relsize} % Schriftgröße relativ festlegen
 \usepackage{setspace}
-\usepackage{xspace}
-\usepackage{geometry}
 
-%Abkürzungsverzeichnis
-\usepackage[printonlyused]{acronym}
-\usepackage[intoc]{nomencl}
-
-%Kopfzeile nach Koma Script
-\usepackage{scrlayer-scrpage}
-\pagestyle{scrheadings}
-\clearpairofpagestyles{}
-
-%nicht einrücken nach Absatz
 \setlength{\parindent}{0pt}
 
-%Schönere Tabellen
-\usepackage{tabularx} % Tabellen mit automatischen Zeilenumbruch in der Zelle
-\usepackage{hyperref}
-\usepackage{pdfpages}
-
-
-% Titelseite beziehungsweise der Inhalt derselbigen:
-\title{Titel der Arbeit}
-\author{Steffen Specker}
-\date{\today}
-
-\onehalfspacing{} %Zeilenabstand auf 1,5 setzen
-
-
-% ============= Package Einstellungen & Sonstiges ============= 
-%Besondere Trennungen
-\hyphenation{De-zi-mal-tren-nung}
-
-
-\newcommand{\titel}{Auslegung eines Dampfdruckbehälters nach Merkblatt AD2000}
-\newcommand{\untertitel}{}
-\newcommand{\untertitelDeckblatt}{}
-\newcommand{\art}{Praxistransferbericht}
-\newcommand{\fachgebiet}{zur Erlangung des akademischen Grades\\ Bachelor of Engineering (B.\,Eng.) im Studienfach\xspace}
-\newcommand{\autor}{Steffen Specker}
-\newcommand{\keywords}{Praxistransferbericht, Steffen Specker}
-\newcommand{\studienbereich}{Maschinenbau\xspace}
-\newcommand{\matrikelnr}{172897}
-\newcommand{\erstgutachter}{Herr Kray}
-\newcommand{\zweitgutachter}{Dipl.-Ing. (FH) Herbert Beispiel}
-\newcommand{\jahr}{2022}
-\newcommand{\hochschule}{Private Hochschule für Wirtschaft und Technik}
-\newcommand{\ort}{Diepholz}
-\newcommand{\logo}{PHWT-Logo.pdf}
-\newcommand{\creator}{}
-
-% ============= Dokumentbeginn =============
 
 \begin{document}
 
 \include{02_titelseite.tex}
 
-%Kopf und Fußzeilen einstellen; Seitennummerierung in Röm. Buchstaben
-\pagenumbering{Roman}
-\ihead{}
-\chead{}
-\ohead{\pagemark\\[4ex]}
-\ifoot{}
-\cfoot{}
-\ofoot{}
-%\phantomsection{} % Sorgt für korrekte Aufnahme des Inhaltsverzeichnisses in das Inhaltsverzeichnis
-%\addcontentsline{toc}{chapter}{Inhaltsverzeichnis}
-\tableofcontents{}
-
-% pagestyle für gesamtes Dokument aktivieren
+\newpage
+\setcounter{page}{1}
 \pagestyle{fancy}
+%
+\lhead{Hallo Test}
+\chead{}
+\rhead{\slshape \leftmark}
+%%
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
 
-%Verzeichnis aller Bilder
-\listoffigures
+\pagenumbering{Roman}
+\tableofcontents
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{2}
 
-%Verzeichnis aller Tabellen
+\listoffigures %abbildungsverzeichnis
 \listoftables 
 
-\addchap{Abkürzungsverzeichnis}\label{Abkürzungsverzeichnis} 
-\begin{acronym}[GHD] 
-   \acro{GHD}{Gewerbe, Handel und Dienstleistung} 
-   \acro{KDE}{K Desktop Environment}
-   \acro{SQL}{Structured Query Language}
-   \acro{Bash}{Bourne-again shell}
-   \acro{JDK}{Java Development Kit}
-   \acro{VM}{Virtuelle Maschine}
-   \acro{I2C}[I²C]{Inter-Integrated Circuit}
-\end{acronym} 
 
 
-\setcounter{page}{0}
+\chapter{First Chapter}
 \pagenumbering{arabic}
-\renewcommand{\thepage}{\arabic{page}}
+\setcounter{page}{1}
 
+This will be an empty chapter
+Test Test Test
 
-\include{04_einleitung}
-
-\include{08_Anhang.tex}
-
-
-%Literaturverzeichnis
-%\bibliographystyle{unsrtdin}
-%\bibliography{Literatur}
-
-
-%Erklärung ohne Nummerierung im Inhaltsverzeichnis
-\addsec{Eidesstattliche Erklärung}\label{erklaerung}
-
-Hiermit versichere ich, die vorliegende Abschlussarbeit selbstständig und nur unter Verwendung der von mir angegebenen Quellen und Hilfsmittel verfasst zu haben. Sowohl inhaltlich als auch wörtlich entnommene Inhalte wurden als solche kenntlich gemacht. Die Arbeit hat in dieser oder vergleichbarer Form noch keinem anderem Prüfungsgremium vorgelegen. \\
-\\[1.5cm]
-Datum:\hrulefill\enspace{} Unterschrift: \hrulefill{}
-\\[3.5cm]
-\ort, den \today
-
-\rule[-0.2cm]{5cm}{0.5pt}
-
-\textsc{\autor} 
 
 \end{document}
+
