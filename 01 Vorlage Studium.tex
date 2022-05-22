@@ -10,56 +10,91 @@
     index=totoc, % Index im Inhaltsverzeichnis aufführen
     captions=tableheading, % Beschriftung von Tabellen unterhalb ausgeben
     final % Status des Dokuments (final/draft)
-]{scrbook}
+]{article}
 
 \usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel} %Landessprache Deutsch
 \usepackage[T1]{fontenc}
-\usepackage{graphicx, subfig}
+\usepackage[pdftex]{graphicx}
+\usepackage{subfig}
 
-
-\usepackage{fancyhdr}
+%Schriftdarstellung Darstellung optimieren
+\usepackage{mathptmx} %Times New Roman
+\usepackage{microtype}
+\hyphenation{De-zi-mal-tren-nung} %Zeilenbrüche verwenden
 \usepackage{color}
 \usepackage{lmodern} % bessere Fonts
 \usepackage{relsize} % Schriftgröße relativ festlegen
-\usepackage{setspace}
+\usepackage{blindtext} %Packet Blindtext
 
+
+%Abstände und Absätze einstellen
 \setlength{\parindent}{0pt}
+\setlength{\parskip}{2cm plus0.5cm minus0.5cm}
+\setlength{\headheight}{15pt}
+%\setlength{\footheight}{8pt}
+\usepackage{setspace} %für onehalfspacing später
+
+
+% ------------- Kopfzeile
+\usepackage[automark]{scrlayer-scrpage}
+\pagestyle{scrheadings}
+\clearmainofpairofpagestyles{}
+\ihead{}
+%\ihead[\rightmark]{\pagemark}
+\chead{}
+%\chead{}{}
+\ohead{\pagemark}
+%\ohead[\pagemark]{\rightmark}
 
 
 \begin{document}
 
+
 \include{02_titelseite.tex}
 
-\newpage
-\setcounter{page}{1}
-\pagestyle{fancy}
-%
-\lhead{Hallo Test}
-\chead{}
-\rhead{\slshape \leftmark}
-%%
-\lfoot{}
-\cfoot{\thepage}
-\rfoot{}
+%Verzeichnisse einrichten, römische Seitenzahlen in Kopfzeile
 
+%\hypersetup{pageanchor=true}
+\setcounter{page}{1}
 \pagenumbering{Roman}
+\renewcommand{\thepage}{\Roman{page}}
 \tableofcontents
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{2}
 
-\listoffigures %abbildungsverzeichnis
-\listoftables 
+\newpage
 
 
+\listoffigures  %Abbildungsverzeichnis
+\listoftables   %Tabellenverzeichnis
 
-\chapter{First Chapter}
+ \cleardoublepage{}
+
+
+%Ab hier beginnt das eigentliche Dokument
+%Neue Kapitel mit \section
+
+\section{First Chapter}
 \pagenumbering{arabic}
-\setcounter{page}{1}
+\cfoot{\thepage}
+\ihead{}
+\chead{}
+\ohead{}
+
+
 
 This will be an empty chapter
 Test Test Test
+\blindtext{}
 
+\subsection{Unterkapitel}
+\blindtext{}
+\subsection{Noch eins}
+\subsection{Ein weiteres}
+
+
+\section{Second Chapter}
+\blindtext[3]
 
 \end{document}
-
