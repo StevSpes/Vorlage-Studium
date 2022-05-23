@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.4.3)  22 MAY 2022 16:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.4.3)  24 MAY 2022 00:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,34 +6,149 @@ entering extended mode
 **"h:/01-DokumenteCloudWD/01 Duales Studium/01 Studium Maschinenbau/Latex/01 Vorlage-Studium-neu/01 Vorlage Studium.tex"
 (h:/01-DokumenteCloudWD/01 Duales Studium/01 Studium Maschinenbau/Latex/01 Vorlage-Studium-neu/01 Vorlage Studium.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(c:/texlive/2021/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+L3 programming layer <2022-02-24> (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2021/11/13 v3.35 KOMA-Script document class (article)
+(c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2021/11/13 v3.35 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+ (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2021/11/13 v3.35 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2021/11/13 v3.35 KOMA-Script package (file load hooks)
+ (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2021/11/13 v3.35 KOMA-Script package (using LaTeX hooks)
+ (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2021/11/13 v3.35 KOMA-Script package (logo)
+))) (c:/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
 )
-\c@part=\count185
-\c@section=\count186
-\c@subsection=\count187
-\c@subsubsection=\count188
-\c@paragraph=\count189
-\c@subparagraph=\count190
-\c@figure=\count191
-\c@table=\count192
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
+)) (c:/texlive/2021/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2021/11/13 v3.35 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip47
+\scr@dte@tocline@numbox=\box50
+)
+Package tocbasic Info: babel extension for `toc' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 135.
+Package scrartcl Info: You've used standard option `12pt'.
+(scrartcl)             This is correct!
+(scrartcl)             Internally I'm using `fontsize=12pt'.
+(scrartcl)             If you'd like to set the option with \KOMAoptions,
+(scrartcl)             you'd have to use `fontsize=12pt' there
+(scrartcl)             instead of `12pt', too.
+Class scrartcl Info: You've used standard option `oneside'.
+(scrartcl)           This is correct!
+(scrartcl)           Internally I'm using `twoside=false'.
+(scrartcl)           If you'd like to set the option with \KOMAoptions,
+(scrartcl)           you'd have to use `twoside=false' there
+(scrartcl)           instead of `oneside', too.
+Class scrartcl Info: You've used standard option `final'.
+(scrartcl)           This is correct!
+(scrartcl)           Internally I'm using `draft=false'.
+(scrartcl)           If you'd like to set the option with \KOMAoptions,
+(scrartcl)           you'd have to use `draft=false' there
+(scrartcl)           instead of `final', too.
+Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input line 2242.
+ (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2021/11/13 v3.35 KOMA-Script font size class option (12pt)
+) (c:/texlive/2021/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2021/11/13 v3.35 KOMA-Script package (type area)
+\ta@bcor=\skip48
+\ta@div=\count185
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+Package typearea Info: You've used standard option `oneside'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `twoside=false'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `twoside=false' there
+(typearea)             instead of `oneside', too.
+\ta@hblk=\skip49
+\ta@vblk=\skip50
+\ta@temp=\skip51
+\footheight=\skip52
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 12
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 448.13095pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1743.
+)
+\c@part=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\scr@dte@section@maxnumwidth=\skip53
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\section on input line 4852.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\section on input line 4852.
+\scr@dte@part@maxnumwidth=\skip54
+Class scrartcl Info: using compatibility default `afterindent=false'
+(scrartcl)           for `\part on input line 4860.
+\scr@dte@subsection@maxnumwidth=\skip55
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsection on input line 4870.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsection on input line 4870.
+\scr@dte@subsubsection@maxnumwidth=\skip56
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsubsection on input line 4880.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsubsection on input line 4880.
+\scr@dte@paragraph@maxnumwidth=\skip57
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\paragraph on input line 4891.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\paragraph on input line 4891.
+\scr@dte@subparagraph@maxnumwidth=\skip58
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subparagraph on input line 4901.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subparagraph on input line 4901.
+\abovecaptionskip=\skip59
+\belowcaptionskip=\skip60
+\c@pti@nb@sid@b@x=\box51
+Package tocbasic Info: babel extension for `lof' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6076.
+\scr@dte@figure@maxnumwidth=\skip61
+\c@figure=\count192
+Package tocbasic Info: babel extension for `lot' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6091.
+\scr@dte@table@maxnumwidth=\skip62
+\c@table=\count193
+Class scrartcl Info: Redefining `\numberline' on input line 6258.
 \bibindent=\dimen138
 ) (c:/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
 ) (c:/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2022/02/26 3.73 The Babel package
-\babel@savecnt=\count193
+\babel@savecnt=\count194
 \U@D=\dimen139
 \l@unhyphenated=\language87
  (c:/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count194
+\bbl@dirlevel=\count195
  (c:/texlive/2021/texmf-dist/tex/generic/babel-german/ngerman.ldf
 Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthography)
  (c:/texlive/2021/texmf-dist/tex/generic/babel-german/ngermanb.ldf
@@ -43,10 +158,7 @@ Package babel Info: Making " an active character on input line 122.
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (c:/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks18
-) (c:/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
  (c:/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
@@ -73,24 +185,26 @@ Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
 \caption@indent=\dimen147
 \caption@parindent=\dimen148
 \caption@hangindent=\dimen149
-Package caption Info: Standard document class detected.
+Package caption Info: KOMA-Script document class detected.
+ (c:/texlive/2021/texmf-dist/tex/latex/caption/caption-koma.sto
+File: caption-koma.sto 2020/09/21 v2.0b Adaption of the caption package to the KOMA-Script document classes (AR)
+))
+\c@caption@flags=\count196
+\c@continuedfloat=\count197
 )
-\c@caption@flags=\count195
-\c@continuedfloat=\count196
-)
-\c@KVtest=\count197
-\sf@farskip=\skip49
+\c@KVtest=\count198
+\sf@farskip=\skip63
 \sf@captopadj=\dimen150
-\sf@capskip=\skip50
-\sf@nearskip=\skip51
-\c@subfigure=\count198
-\c@subfigure@save=\count199
-\c@lofdepth=\count266
-\c@subtable=\count267
-\c@subtable@save=\count268
-\c@lotdepth=\count269
-\sf@top=\skip52
-\sf@bottom=\skip53
+\sf@capskip=\skip64
+\sf@nearskip=\skip65
+\c@subfigure=\count199
+\c@subfigure@save=\count266
+\c@lofdepth=\count267
+\c@subtable=\count268
+\c@subtable@save=\count269
+\c@lotdepth=\count270
+\sf@top=\skip66
+\sf@bottom=\skip67
 ) (c:/texlive/2021/texmf-dist/tex/latex/psnfss/mathptmx.sty
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
@@ -130,23 +244,23 @@ LaTeX Info: Redefining \hbar on input line 50.
 Package: microtype 2022/03/14 v3.0d Micro-typographical refinements (RS)
  (c:/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count270
+\etb@tempcnta=\count271
 )
 \MT@toks=\toks19
-\MT@tempbox=\box50
-\MT@count=\count271
+\MT@tempbox=\box52
+\MT@count=\count272
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1027.
 LaTeX Info: Redefining \leftprotrusion on input line 1028.
 LaTeX Info: Redefining \rightprotrusion on input line 1036.
 LaTeX Info: Redefining \textls on input line 1195.
 \MT@outer@kern=\dimen151
 LaTeX Info: Redefining \textmicrotypecontext on input line 1781.
-\MT@listname@count=\count272
+\MT@listname@count=\count273
  (c:/texlive/2021/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2022/03/14 v3.0d Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 900.
 LaTeX Info: Redefining \lslig on input line 900.
-\MT@outer@space=\skip54
+\MT@outer@space=\skip68
 )
 Package microtype Info: Loading configuration file microtype.cfg.
  (c:/texlive/2021/texmf-dist/tex/latex/microtype/microtype.cfg
@@ -198,94 +312,82 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
  (c:/texlive/2021/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count273
-\c@Blindtext=\count274
-\c@blind@countparstart=\count275
-\blind@countxx=\count276
-\blindtext@numBlindtext=\count277
-\blind@countyy=\count278
-\c@blindlist=\count279
-\c@blindlistlevel=\count280
-\c@blindlist@level=\count281
-\blind@listitem=\count282
-\c@blind@listcount=\count283
-\c@blind@levelcount=\count284
-\blind@mathformula=\count285
-\blind@Mathformula=\count286
-\c@blind@randomcount=\count287
-\c@blind@randommax=\count288
-\c@blind@pangramcount=\count289
-\c@blind@pangrammax=\count290
+\c@blindtext=\count274
+\c@Blindtext=\count275
+\c@blind@countparstart=\count276
+\blind@countxx=\count277
+\blindtext@numBlindtext=\count278
+\blind@countyy=\count279
+\c@blindlist=\count280
+\c@blindlistlevel=\count281
+\c@blindlist@level=\count282
+\blind@listitem=\count283
+\c@blind@listcount=\count284
+\c@blind@levelcount=\count285
+\blind@mathformula=\count286
+\blind@Mathformula=\count287
+\c@blind@randomcount=\count288
+\c@blind@randommax=\count289
+\c@blind@pangramcount=\count290
+\c@blind@pangrammax=\count291
 ) (c:/texlive/2021/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 ) (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
 Package: scrlayer-scrpage 2021/11/13 v3.35 KOMA-Script package (end user interface for scrlayer)
  (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrlayer.sty
 Package: scrlayer 2021/11/13 v3.35 KOMA-Script package (defining layers and page styles)
- (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2021/11/13 v3.35 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
- (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2021/11/13 v3.35 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
- (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2021/11/13 v3.35 KOMA-Script package (file load hooks)
- (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
-Package: scrlfile-hook 2021/11/13 v3.35 KOMA-Script package (using LaTeX hooks)
- (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrlogo.sty
-Package: scrlogo 2021/11/13 v3.35 KOMA-Script package (logo)
-)))
-Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
-Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
-))
-\footheight=\skip55
+Package scrlayer Info: Using already defined \footheight
+(scrlayer)             hoping, that this is a length and
+(scrlayer)             not only a macro on input line 136.
 Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 2162.
-))
-Package scrlayer-scrpage Info: auto-selection of `pagestyleset=standard'.
+)
+Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
+(scrlayer-scrpage)             alias to `pageheadfoot' on input line 1085.
+Package scrlayer-scrpage Info: deactivating warning for font element
+(scrlayer-scrpage)             `pagefoot' on input line 1109.
+)
+Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
 
 1: subsection
 1: section
 1: section
 1: subsection
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 51.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 53.
 (c:/texlive/2021/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count291
-\l__pdf_internal_box=\box51
-)
-
-LaTeX Warning: Unused global option(s):
-    [parskip,headings,listof,bibliography,index,captions].
-
-(./01 Vorlage Studium.aux (./02_titelseite.aux))
+\l__color_backend_stack_int=\count292
+\l__pdf_internal_box=\box53
+) (./01 Vorlage Studium.aux (./02_titelseite.aux))
 \openout1 = `"01 Vorlage Studium.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
  (c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count292
+\scratchcounter=\count293
 \scratchdimen=\dimen152
-\scratchbox=\box52
-\nofMPsegments=\count293
-\nofMParguments=\count294
+\scratchbox=\box54
+\nofMPsegments=\count294
+\nofMParguments=\count295
 \everyMPshowfont=\toks20
-\MPscratchCnt=\count295
+\MPscratchCnt=\count296
 \MPscratchDim=\dimen153
-\MPnumerator=\count296
-\makeMPintoPDFobject=\count297
+\MPnumerator=\count297
+\makeMPintoPDFobject=\count298
 \everyMPtoPDFconversion=\toks21
 ) (c:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -321,29 +423,24 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 \big@size=\dimen154
-LaTeX Info: Redefining \microtypecontext on input line 51.
-Package microtype Info: Applying patch `item' on input line 51.
-Package microtype Info: Applying patch `toc' on input line 51.
-Package microtype Info: Applying patch `eqnum' on input line 51.
-
-
-Package microtype Warning: Unable to apply patch `footnote' on input line 51.
-
+LaTeX Info: Redefining \microtypecontext on input line 53.
+Package microtype Info: Applying patch `item' on input line 53.
+Package microtype Info: Applying patch `toc' on input line 53.
+Package microtype Info: Applying patch `eqnum' on input line 53.
+Package microtype Info: Applying patch `footnote' on input line 53.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 51.
+LaTeX Info: Redefining \showhyphens on input line 53.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-(c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+ (c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 51.
 \openout2 = `02_titelseite.aux'.
 
  (./02_titelseite.tex
@@ -388,44 +485,58 @@ File: img/PHWT-Logo.jpg Graphic file (type jpg)
 Package pdftex.def Info: img/PHWT-Logo.jpg  used on input line 13.
 (pdftex.def)             Requested size: 353.15851pt x 164.29338pt.
 )
-Overfull \hbox (12.0pt too wide) in paragraph at lines 2--54
+Overfull \hbox (23.74983pt too wide) in paragraph at lines 2--55
 [][] 
  []
 
 [1
 
 
-{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/PHWT-Logo.jpg>] (./01 Vorlage Studium.toc)
+{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/PHWT-Logo.jpg>]
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 64.
+ (c:/texlive/2021/texmf-dist/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package tocbasic Info: character protrusion at toc deactivated on input line 64.
+ (./01 Vorlage Studium.toc)
 \tf@toc=\write3
 \openout3 = `"01 Vorlage Studium.toc"'.
 
  [1
 
 
-] (./01 Vorlage Studium.lof)
+]
+Package tocbasic Info: character protrusion at lof deactivated on input line 71.
+ (./01 Vorlage Studium.lof)
 \tf@lof=\write4
 \openout4 = `"01 Vorlage Studium.lof"'.
 
+Package tocbasic Info: character protrusion at lot deactivated on input line 72.
  (./01 Vorlage Studium.lot)
 \tf@lot=\write5
 \openout5 = `"01 Vorlage Studium.lot"'.
 
  [2] [1
 
+
 ] [2] [3] (./01 Vorlage Studium.aux (./02_titelseite.aux)) ) 
 Here is how much of TeX's memory you used:
- 9420 strings out of 478276
- 192961 string characters out of 5850490
- 569229 words of memory out of 5000000
- 27417 multiletter control sequences out of 15000+600000
- 508149 words of font info for 80 fonts, out of 8000000 for 9000
+ 11784 strings out of 478276
+ 253454 string characters out of 5850490
+ 725937 words of memory out of 5000000
+ 29753 multiletter control sequences out of 15000+600000
+ 511071 words of font info for 87 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 123i,19n,120p,1111b,404s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmro12.pfb>
-Output written on "01 Vorlage Studium.pdf" (6 pages, 206845 bytes).
+ 108i,19n,106p,10709b,407s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmro12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on "01 Vorlage Studium.pdf" (6 pages, 229947 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
+ 50 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 23558 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 25606 words of extra memory for PDF output out of 29859 (max. 10000000)
 
