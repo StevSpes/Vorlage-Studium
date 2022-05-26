@@ -245,6 +245,40 @@ INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/caption-koma.sto
 INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/caption-koma.sto
 INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/caption-koma.sto
 INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/caption-koma.sto
+INPUT c:/texlive/2021/texmf-dist/tex/latex/acronym/acronym.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/acronym/acronym.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/acronym/acronym.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/acronym/acronym.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/acronym/acronym.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/acronym/acronym.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/acronym/acronym.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/acronym/acronym.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/acronym/acronym.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/acronym/acronym.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/acronym/acronym.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/bigfoot/suffix.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/bigfoot/suffix.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/bigfoot/suffix.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/bigfoot/suffix.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/bigfoot/suffix.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/bigfoot/suffix.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/bigfoot/suffix.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/bigfoot/suffix.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/bigfoot/suffix.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/bigfoot/suffix.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/bigfoot/suffix.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.tex
 INPUT c:/texlive/2021/texmf-dist/tex/latex/psnfss/mathptmx.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/psnfss/mathptmx.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/psnfss/mathptmx.sty
@@ -348,6 +382,40 @@ INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/xspace.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/xspace.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/xspace.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/xspace.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/setspace/setspace.sty
@@ -383,11 +451,11 @@ INPUT c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrlayer.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrlayer.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrkbase.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrlfile.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/lm/t1lmr.fd
-INPUT c:/texlive/2021/texmf-dist/tex/latex/lm/t1lmr.fd
-INPUT c:/texlive/2021/texmf-dist/tex/latex/lm/t1lmr.fd
-INPUT c:/texlive/2021/texmf-dist/tex/latex/lm/t1lmr.fd
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
+INPUT c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1ptm.fd
+INPUT c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1ptm.fd
+INPUT c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1ptm.fd
+INPUT c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1ptm.fd
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -501,25 +569,15 @@ INPUT c:/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 INPUT c:/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 INPUT c:/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
-INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
-INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
-INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
-INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
-INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
-INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
-INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
-INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
-INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
-INPUT c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT c:/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-INPUT c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-INPUT c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-INPUT c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+INPUT c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+INPUT c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+INPUT c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+INPUT c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 INPUT ./02_titelseite.tex
 OUTPUT 02_titelseite.aux
 INPUT ./02_titelseite.tex
@@ -534,6 +592,10 @@ INPUT c:/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT c:/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT c:/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr12.tfm
+INPUT c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+INPUT c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+INPUT c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+INPUT c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr9.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/lm/rm-lmr7.tfm
 INPUT c:/texlive/2021/texmf-dist/tex/latex/lm/omllmm.fd
@@ -560,52 +622,69 @@ INPUT c:/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 INPUT c:/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 INPUT c:/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-ptm.cfg
-INPUT c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-ptm.cfg
-INPUT c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-ptm.cfg
-INPUT c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT ./img/PHWT-Logo.jpg
 INPUT ./img/PHWT-Logo.jpg
 INPUT img/PHWT-Logo.jpg
 INPUT ./img/PHWT-Logo.jpg
 OUTPUT 01 Vorlage Studium.pdf
 INPUT ./img/PHWT-Logo.jpg
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmr17.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT c:/texlive/2021/texmf-dist/tex/latex/lm/t1lmss.fd
-INPUT c:/texlive/2021/texmf-dist/tex/latex/lm/t1lmss.fd
-INPUT c:/texlive/2021/texmf-dist/tex/latex/lm/t1lmss.fd
-INPUT c:/texlive/2021/texmf-dist/tex/latex/lm/t1lmss.fd
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmss12.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1phv.fd
+INPUT c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1phv.fd
+INPUT c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1phv.fd
+INPUT c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1phv.fd
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT ./01 Vorlage Studium.toc
 INPUT 01 Vorlage Studium.toc
 INPUT 01 Vorlage Studium.toc
 OUTPUT 01 Vorlage Studium.toc
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmro12.tfm
-INPUT ./01 Vorlage Studium.lof
-INPUT 01 Vorlage Studium.lof
-INPUT 01 Vorlage Studium.lof
-OUTPUT 01 Vorlage Studium.lof
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmro8t.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
 INPUT ./01 Vorlage Studium.lot
 INPUT 01 Vorlage Studium.lot
 INPUT 01 Vorlage Studium.lot
 OUTPUT 01 Vorlage Studium.lot
+INPUT ./01 Vorlage Studium.lof
+INPUT 01 Vorlage Studium.lof
+INPUT 01 Vorlage Studium.lof
+OUTPUT 01 Vorlage Studium.lof
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmro8t.vf
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmro8r.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+INPUT ./img/render.png
+INPUT ./img/render.png
+INPUT img/render.png
+INPUT ./img/render.png
+INPUT ./img/render.png
 INPUT 01 Vorlage Studium.aux
 INPUT ./02_titelseite.aux
 INPUT 02_titelseite.aux
 INPUT 02_titelseite.aux
-INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
-INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
-INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb
-INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr17.pfb
-INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmro12.pfb
-INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb
+INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc
+INPUT c:/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb
+INPUT c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
+INPUT c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
+INPUT c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
