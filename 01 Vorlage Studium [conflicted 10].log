@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.4.3)  26 MAY 2022 17:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.4.3)  29 MAY 2022 23:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -43,12 +43,6 @@ Class scrartcl Info: You've used standard option `oneside'.
 (scrartcl)           If you'd like to set the option with \KOMAoptions,
 (scrartcl)           you'd have to use `twoside=false' there
 (scrartcl)           instead of `oneside', too.
-Class scrartcl Info: You've used standard option `final'.
-(scrartcl)           This is correct!
-(scrartcl)           Internally I'm using `draft=false'.
-(scrartcl)           If you'd like to set the option with \KOMAoptions,
-(scrartcl)           you'd have to use `draft=false' there
-(scrartcl)           instead of `final', too.
 Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input line 2242.
  (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
 File: scrsize12pt.clo 2021/11/13 v3.35 KOMA-Script font size class option (12pt)
@@ -205,17 +199,79 @@ File: caption-koma.sto 2020/09/21 v2.0b Adaption of the caption package to the K
 \c@lotdepth=\count270
 \sf@top=\skip66
 \sf@bottom=\skip67
-) (c:/texlive/2021/texmf-dist/tex/latex/acronym/acronym.sty
-Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
- (c:/texlive/2021/texmf-dist/tex/latex/bigfoot/suffix.sty
-Package: suffix 2006/07/15 1.5a Variant command support
-) (c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty (c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count271
-\decimalpart=\count272
+) (c:/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+ (c:/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen151
+\ar@mcellbox=\box52
+\extrarowheight=\dimen152
+\NC@list=\toks19
+\extratabsurround=\skip68
+\backup@length=\skip69
+\ar@cellbox=\box53
 )
-Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+\TX@col@width=\dimen153
+\TX@old@table=\dimen154
+\TX@old@col=\dimen155
+\TX@target=\dimen156
+\TX@delta=\dimen157
+\TX@cols=\count271
+\TX@ftn=\toks20
+) (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip70
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen158
+)) (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen159
+) (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
 )
-\AC@clearlist=\toks19
+\inf@bad=\count272
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count273
+\leftroot@=\count274
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count275
+\DOTSCASE@=\count276
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+\big@size=\dimen160
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count277
+\c@MaxMatrixCols=\count278
+\dotsspace@=\muskip16
+\c@parentequation=\count279
+\dspbrk@lvl=\count280
+\tag@help=\toks22
+\row@=\count281
+\column@=\count282
+\maxfields@=\count283
+\andhelp@=\toks23
+\eqnshift@=\dimen161
+\alignsep@=\dimen162
+\tagshift@=\dimen163
+\tagwidth@=\dimen164
+\totwidth@=\dimen165
+\lineht@=\dimen166
+\@envbody=\toks24
+\multlinegap=\skip71
+\multlinetaggap=\skip72
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
 ) (c:/texlive/2021/texmf-dist/tex/latex/psnfss/mathptmx.sty
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
@@ -255,23 +311,23 @@ LaTeX Info: Redefining \hbar on input line 50.
 Package: microtype 2022/03/14 v3.0d Micro-typographical refinements (RS)
  (c:/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count273
+\etb@tempcnta=\count284
 )
-\MT@toks=\toks20
-\MT@tempbox=\box52
-\MT@count=\count274
+\MT@toks=\toks26
+\MT@tempbox=\box56
+\MT@count=\count285
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1027.
 LaTeX Info: Redefining \leftprotrusion on input line 1028.
 LaTeX Info: Redefining \rightprotrusion on input line 1036.
 LaTeX Info: Redefining \textls on input line 1195.
-\MT@outer@kern=\dimen151
+\MT@outer@kern=\dimen167
 LaTeX Info: Redefining \textmicrotypecontext on input line 1781.
-\MT@listname@count=\count275
+\MT@listname@count=\count286
  (c:/texlive/2021/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2022/03/14 v3.0d Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 900.
 LaTeX Info: Redefining \lslig on input line 900.
-\MT@outer@space=\skip68
+\MT@outer@space=\skip73
 )
 Package microtype Info: Loading configuration file microtype.cfg.
  (c:/texlive/2021/texmf-dist/tex/latex/microtype/microtype.cfg
@@ -323,24 +379,24 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
  (c:/texlive/2021/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count276
-\c@Blindtext=\count277
-\c@blind@countparstart=\count278
-\blind@countxx=\count279
-\blindtext@numBlindtext=\count280
-\blind@countyy=\count281
-\c@blindlist=\count282
-\c@blindlistlevel=\count283
-\c@blindlist@level=\count284
-\blind@listitem=\count285
-\c@blind@listcount=\count286
-\c@blind@levelcount=\count287
-\blind@mathformula=\count288
-\blind@Mathformula=\count289
-\c@blind@randomcount=\count290
-\c@blind@randommax=\count291
-\c@blind@pangramcount=\count292
-\c@blind@pangrammax=\count293
+\c@blindtext=\count287
+\c@Blindtext=\count288
+\c@blind@countparstart=\count289
+\blind@countxx=\count290
+\blindtext@numBlindtext=\count291
+\blind@countyy=\count292
+\c@blindlist=\count293
+\c@blindlistlevel=\count294
+\c@blindlist@level=\count295
+\blind@listitem=\count296
+\c@blind@listcount=\count297
+\c@blind@levelcount=\count298
+\blind@mathformula=\count299
+\blind@Mathformula=\count300
+\c@blind@randomcount=\count301
+\c@blind@randommax=\count302
+\c@blind@pangramcount=\count303
+\c@blind@pangrammax=\count304
 ) (c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
@@ -348,18 +404,18 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count294
-\Gm@cntv=\count295
-\c@Gm@tempcnt=\count296
-\Gm@bindingoffset=\dimen152
-\Gm@wd@mp=\dimen153
-\Gm@odd@mp=\dimen154
-\Gm@even@mp=\dimen155
-\Gm@layoutwidth=\dimen156
-\Gm@layoutheight=\dimen157
-\Gm@layouthoffset=\dimen158
-\Gm@layoutvoffset=\dimen159
-\Gm@dimlist=\toks21
+\Gm@cnth=\count305
+\Gm@cntv=\count306
+\c@Gm@tempcnt=\count307
+\Gm@bindingoffset=\dimen168
+\Gm@wd@mp=\dimen169
+\Gm@odd@mp=\dimen170
+\Gm@even@mp=\dimen171
+\Gm@layoutwidth=\dimen172
+\Gm@layoutheight=\dimen173
+\Gm@layouthoffset=\dimen174
+\Gm@layoutvoffset=\dimen175
+\Gm@dimlist=\toks27
 ) (c:/texlive/2021/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 ) (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
@@ -382,43 +438,63 @@ Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
 1: section
 1: section
 1: subsection
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 104.
-(c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1ptm.fd
+(c:/texlive/2021/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
+ (c:/texlive/2021/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+) (c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty (c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count308
+\decimalpart=\count309
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+)
+\AC@clearlist=\toks28
+)
+Package tocbasic Info: setting babel extension for `loe' on input line 79.
+\scr@dte@xequation@maxnumwidth=\skip74
+\c@xequation=\count310
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 124.
+ (c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count297
-\l__pdf_internal_box=\box53
-) (./01 Vorlage Studium.aux (./02_titelseite.aux))
+\l__color_backend_stack_int=\count311
+\l__pdf_internal_box=\box57
+)
+
+LaTeX Warning: Unused global option(s):
+    [final sectionentrydots].
+
+(./01 Vorlage Studium.aux (./02_titelseite.aux))
 \openout1 = `"01 Vorlage Studium.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
  (c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count298
-\scratchdimen=\dimen160
-\scratchbox=\box54
-\nofMPsegments=\count299
-\nofMParguments=\count300
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count301
-\MPscratchDim=\dimen161
-\MPnumerator=\count302
-\makeMPintoPDFobject=\count303
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count312
+\scratchdimen=\dimen176
+\scratchbox=\box58
+\nofMPsegments=\count313
+\nofMParguments=\count314
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count315
+\MPscratchDim=\dimen177
+\MPnumerator=\count316
+\makeMPintoPDFobject=\count317
+\everyMPtoPDFconversion=\toks30
 ) (c:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
  (c:/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
@@ -449,19 +525,18 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-\big@size=\dimen162
-LaTeX Info: Redefining \microtypecontext on input line 104.
-Package microtype Info: Applying patch `item' on input line 104.
-Package microtype Info: Applying patch `toc' on input line 104.
-Package microtype Info: Applying patch `eqnum' on input line 104.
-Package microtype Info: Applying patch `footnote' on input line 104.
+LaTeX Info: Redefining \microtypecontext on input line 124.
+Package microtype Info: Applying patch `item' on input line 124.
+Package microtype Info: Applying patch `toc' on input line 124.
+Package microtype Info: Applying patch `eqnum' on input line 124.
+Package microtype Info: Applying patch `footnote' on input line 124.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 104.
+LaTeX Info: Redefining \showhyphens on input line 124.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -502,6 +577,8 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Package scrbase Info: activating ngerman \xequationname on input line 124.
+Package scrbase Info: activating ngerman \listxequationname on input line 124.
 \openout2 = `02_titelseite.aux'.
 
 (./02_titelseite.tex
@@ -545,7 +622,7 @@ File: img/PHWT-Logo.jpg Graphic file (type jpg)
 Package pdftex.def Info: img/PHWT-Logo.jpg  used on input line 13.
 (pdftex.def)             Requested size: 353.15851pt x 164.29338pt.
 )
-Overfull \hbox (24.0pt too wide) in paragraph at lines 2--105
+Overfull \hbox (24.0pt too wide) in paragraph at lines 2--125
 [][] 
  []
 
@@ -585,7 +662,7 @@ Overfull \hbox (24.0pt too wide) in paragraph at lines 2--105
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 132.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 152.
  (c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
@@ -593,7 +670,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package tocbasic Info: character protrusion at toc deactivated on input line 132.
+Package tocbasic Info: character protrusion at toc deactivated on input line 152.
  (./01 Vorlage Studium.toc)
 \tf@toc=\write3
 \openout3 = `"01 Vorlage Studium.toc"'.
@@ -603,42 +680,42 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 132
 
 
 ]
-Package tocbasic Info: character protrusion at lot deactivated on input line 139.
+Package tocbasic Info: character protrusion at lot deactivated on input line 156.
  (./01 Vorlage Studium.lot)
 \tf@lot=\write4
 \openout4 = `"01 Vorlage Studium.lot"'.
 
-Package tocbasic Info: character protrusion at lof deactivated on input line 141.
+Package tocbasic Info: character protrusion at lof deactivated on input line 158.
  (./01 Vorlage Studium.lof)
 \tf@lof=\write5
 \openout5 = `"01 Vorlage Studium.lof"'.
 
  [2]
 Package acronym Info: Label `acro:KDE' newly defined as it shall be overridden
-although it is yet undefined on input line 187.
+although it is yet undefined on input line 200.
  [1
 
 
 ] [2]
-<img/render.png, id=23, 1084.05pt x 647.41875pt>
-File: img/render.png Graphic file (type png)
-<use img/render.png>
-Package pdftex.def Info: img/render.png  used on input line 204.
+<img//render.png, id=22, 1084.05pt x 647.41875pt>
+File: img//render.png Graphic file (type png)
+<use img//render.png>
+Package pdftex.def Info: img//render.png  used on input line 218.
 (pdftex.def)             Requested size: 426.79733pt x 254.89284pt.
- [3] [4 <./img/render.png>] (./01 Vorlage Studium.aux (./02_titelseite.aux)) ) 
+ [3] [4 <./img//render.png>] [5] [6] [7] [8] (./01 Vorlage Studium.aux (./02_titelseite.aux)) ) 
 Here is how much of TeX's memory you used:
- 12958 strings out of 478276
- 269918 string characters out of 5850490
- 752081 words of memory out of 5000000
- 30854 multiletter control sequences out of 15000+600000
- 514445 words of font info for 124 fonts, out of 8000000 for 9000
+ 13854 strings out of 478276
+ 282761 string characters out of 5850490
+ 768277 words of memory out of 5000000
+ 31711 multiletter control sequences out of 15000+600000
+ 514195 words of font info for 135 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 108i,19n,106p,10709b,407s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "01 Vorlage Studium.pdf" (7 pages, 414965 bytes).
+ 108i,19n,106p,10709b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on "01 Vorlage Studium.pdf" (11 pages, 445879 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 82 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 50699 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 48651 words of extra memory for PDF output out of 51595 (max. 10000000)
 

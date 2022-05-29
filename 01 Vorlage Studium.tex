@@ -9,60 +9,86 @@
     index=totoc, % Index im Inhaltsverzeichnis aufführen
     captions=tableheading, % Beschriftung von Tabellen unterhalb ausgeben
     final % Status des Dokuments (final/draft)
+    %toc=chapterentrywithdots %Inhaltsverzeichnis mit Punkten
+    sectionentrydots=true,
+    toc = bibliography,
 ]{scrartcl}
-%anderes Layout mit {article} oder {scrartcl} erreichbar....
+%scrartcl -> Basis der Vorlage = Koma Script
 
+%Allgemeine Pakete
 \usepackage[utf8]{inputenc} 
 \usepackage[ngerman]{babel}                         %Landessprache Deutsch
 \usepackage[T1]{fontenc}                            %Schriftformatierung
-\usepackage[pdftex]{graphicx}                       %Implementierung von Grafiken
-\usepackage{subfig} 
-\usepackage[printonlyused,withpage]{acronym}        %Abkürzungsverzeichnis
+
+
+% Graphik- und Tabellenpakete
+\usepackage[pdftex]{graphicx}                       %Implementierung Grafiken
+\graphicspath{{img/} }                              % Bildordner
+\usepackage{subfig}                                 % Mehrere Graphiken nebeneinander
+\usepackage{tabularx}                               %Tabellenpaket
+
+%Tabellen für Formeln und Gleichungen
+\usepackage{amsmath}
+
+
+%Hyperlinks (erst am Ende aktivieren)
 %\usepackage{hyperref}                              %Erstellen von Hyperlinks
 %\usepackage[figure]{hypcap}                        %Hyperlinks für Abbildungen
 
-%Schriftdarstellung Darstellung optimieren
-\usepackage{mathptmx} %Times New Roman
-\usepackage{microtype}
-\hyphenation{De-zi-mal-tren-nung} %Zeilenbrüche verwenden
-\usepackage{color}
-\usepackage{lmodern} % bessere Fonts
-\usepackage{relsize} % Schriftgröße relativ festlegen
-\usepackage{blindtext} %Packet Blindtext
+
+%Schriftdarstellung und Textoptimierung 
+\usepackage{mathptmx}               % Times New Roman
+\usepackage{microtype}              % Blocksatzbildung
+\hyphenation{De-zi-mal-tren-nung}   % Deutsche Zeilenbrüche
+\usepackage{color}                  % Möglichkeit zum Verwenden von Farben
+\usepackage{lmodern}                % bessere Fonts
+\usepackage{relsize}                % Schriftgröße relativ festlegen
+\usepackage{blindtext}              %Packet Blindtext zum Einfügen von sinnlosen Text
 
 
-\RedeclareSectionCommand[%
-                         beforeskip = -24pt,% negativer Wert um den Einzug nach der Überschrift zu vermeiden
-                        afterskip  = 8pt,% Abstand nach der Überschrift
-                        indent  = 0pt% Einzug vor der Zahl der Überschrift
-                         ]{section}
-\addtokomafont{subsection}{\rmfamily\bfseries}
-\RedeclareSectionCommand[%
-                         beforeskip = -24pt,% negativer Wert um den Einzug nach der Überschrift zu vermeiden
-                         afterskip  = 8pt,% Abstand nach der Überschrift
-                         indent  = 0pt% Einzug vor der Zahl der Überschrift
-                         ]{subsection}
-\addtokomafont{subsubsection}{\rmfamily\bfseries}
-\RedeclareSectionCommand[%
-                         beforeskip = -24pt,% negativer Wert um den Einzug nach der Überschrift zu vermeiden
-                         afterskip  = 8pt,% Abstand nach der Überschrift
-                         indent  = 0pt% Einzug vor der Zahl der Überschrift
-                         ]{subsubsection}
-                         
-
-% Seitenenlayout
+% Pakete für Geometrie und Abstände
 \usepackage{geometry} %zunächst auf Standardeinstellungen belassen...
-\usepackage{setspace} %für onehalfspacing später
+\usepackage{setspace} 
 
 
-%Schriftarten von Section, Chapter, Text etc. einstellen
+
+%Verzeichnispakete 
+\usepackage[automark]{scrlayer-scrpage}             % Kopf und Fußzeile
+\usepackage[printonlyused,withpage]{acronym}        % Abkürzungsverzeichnis
+
+
+
+%Schriftarten von Section, Chapter, Text etc. einstellen, Format Inhaltsverzeichnis
 \renewcommand{\rmdefault}{ptm}
 \renewcommand{\sfdefault}{phv}
 \renewcommand\familydefault{\rmdefault}
 \addtokomafont{section}{\rmfamily\mdseries\Large \hspace*{-0.2cm}\vspace{-10pt}}
 \addtokomafont{subsection}{\normalfont\large\rmfamily\bfseries\hspace*{-0.2cm}\vspace{-10pt}}
+\addtokomafont{sectionentry}{\rmfamily\mdseries\large \hspace{-10pt}\vspace{-5pt}}
+\newcommand*{\smalltocentry}[1]{\normalfont #1}% To setup the small ToC entries (see \RedeclareSectionCommand[…]{section})
+\RedeclareSectionCommand[beforeskip=0pt,afterskip=\baselineskip,afterindent=false]{section}
+\RedeclareSectionCommand[beforeskip=0pt,afterskip=\baselineskip,afterindent=false,tocentryformat=\smalltocentry]{subsection}
 
-%Formatierung des Tabellen/Abkürzungsverzeichnis anpassen
+%Formelverzeichnis erstellen
+\DeclareNewTOC[%
+  counterwithin=chapter,
+  %indent=0pt,% kein Einzug im Verzeichnis
+  %hang=2em,% Einzug für den Text im Verzeichnis
+  name=equation,
+  type=xequation,
+  nonfloat]{loe}
+
+\AtBeginDocument{%
+  \newcaptionname{ngerman}\xequationname{Formel}%
+  \newcaptionname{ngerman}\listxequationname{Formelverzeichnis}%
+}
+
+
+
+
+%\KOMAoptions{toc=chapterentrydotfill}
+
+%Formatierung des Tabellen/Abküerzungsverzeichnis anpassen
 %\usepackage{tocloft}
 %\renewcommand{\cftfigpresnum}{Abbildung. }
 %\renewcommand{\cfttabpresnum}{Tabelle. }
@@ -87,38 +113,32 @@
 
 
 
-% Kopf- und Fußzeile der ersten Seiten erstellen
-\usepackage[automark]{scrlayer-scrpage}
+% Kopf- und Fußzeile der ersten Seiten (Paket scrlayer-scrpage)
 \pagestyle{scrheadings}
-\clearmainofpairofpagestyles{}
-%\ihead{}
-%\chead{}
-%\chead{}{}
-\ohead{\pagemark}
-
-
-
+\clearmainofpairofpagestyles{}  % alle Felder leeren
+%\ihead{}\chead{}\chead{}
+\ohead{\pagemark}               % Seitenzahl oben rechts
 
 
 
 \begin{document}
 \include{02_titelseite.tex}
 
-%Verzeichnisse einrichten, römische Seitenzahlen in Kopfzeile
+
+
 
 %\hypersetup{pageanchor=true} %Hyperlinks erstellen
-%\setcounter{page}{1}
 \pagenumbering{Roman}
-\renewcommand{\thepage}{\Roman{page}}
+
 
 %Absätze einstellen
 \newgeometry{left=4cm, right=2cm, top=2cm}
 \setlength{\parindent}{0cm}                     % Einrücken des Textes bei neuem Absatz
-\setlength{\parskip}{0.5cm}                       % Vertikaler Abstand der Absätze (\par)
-\doublespacing{}                               % Zeilenabstand
+\setlength{\parskip}{0.5cm}                     % Vertikaler Abstand der Absätze
+\doublespacing{}                                % Zeilenabstand
 
 % Seitenränder für das Textdokument einstellen
-\setlength{\headheight}{1.5cm}                    % Höhe Kopfzeile
+\setlength{\headheight}{1.5cm}                  % Höhe Kopfzeile
 \setlength{\voffset}{2.5cm}                     % Abstand Oberer Rand - Textfeld
 \setlength{\topmargin}{-4.5cm}                  % Abstand Oberer Rand - Text oben
 \setlength{\headsep}{0.5cm}                     % Abstand Kopfzeile - Text oben 
@@ -128,21 +148,15 @@
 \setlength{\intextsep}{12pt}
 \setlength{\textfloatsep}{12pt}
 
-
+\addcontentsline{toc}{section}{Inhaltsverzeichnis}
 \tableofcontents
-%\setcounter{secnumdepth}{3}
-%\setcounter{tocdepth}{2}
-
-
+%\setcounter{secnumdepth}{2}
 
 \newpage
 \listoftables % Tabellenverzeichnis
 \vspace{2cm}
 \listoffigures  %Abbildungsverzeichnis
-
 \vspace{2cm}
-
-
 \section*{Abkürzungsverzeichnis} 
 \addcontentsline{toc}{section}{Abkürzungsverzeichnis} 
 
@@ -158,26 +172,25 @@
 \end{acronym}
 
 
+\vspace{2cm}
 
-\section*{Formelverzeichnis} 
-\addcontentsline{toc}{section}{Formelverzeichnis} 
+
+%\section*{Formelverzeichnis} 
+%\addcontentsline{toc}{section}{Formelverzeichnis} 
 %\renewcommand{\listtablename}{}
 
 
-
-
- \cleardoublepage{}
+\cleardoublepage{}
 
 
 %Ab hier beginnt das eigentliche Dokument
-%Neue Kapitel mit \section
 
 \newpage
 \pagenumbering{arabic}
 \ofoot{\thepage}
 \ihead{}
 \chead{}
-\ohead{\thepage}
+\ohead{}
 
 
 
@@ -196,18 +209,89 @@ Des lässt sich auch an xx feststellen. Der Mehrwert Bla Bla \blindtext\par
 \subsection{Ein weiteres}
 
 \newpage
+
 \section{Grundlagen der Sterilisation und Rahmenbedingungen für die Konstruktion eines Dampfdruckbehälters}
-\blindtext[1] \par
-\blindtext[1.5] \par
+\blindtext[1]\par\blindtext[1.5]\par
+
 \begin{figure}[htb]
     \centering  
-    \includegraphics[keepaspectratio,width=\textwidth,height=\textheight]{img/render.png}
+    \includegraphics[keepaspectratio,width=\textwidth,height=\textheight]{render.png}
     \caption{3D Darstellung des Dampfdruckbehälters}\label{fig:render}
 \end{figure}
+
 \par
+
 Dies ist auch in Abbildung \ref{fig:render} sehr gut zu erkennen (vgl. Abb.\ref{fig:render}).
 
-\blindtext[1.2] \par
+\blindtext[2] \par
+
+
+\subsection{Wahl der Dichtmittel}
+\blindtext[2] \par
+
+\subsection{Einflussgrößen auf die Auslegung nach AD2000}
+\blindtext[1]
+
+\begin{table}[htb]
+\centering
+\begin{tabular}{|c|cc|}
+    \hline
+ Einheit & Benennung & Kategorie \\
+ \hline
+ m & 6 & 8783 \\ 
+ s & 7 & 78 \\
+ V & 545 & 778\\
+ A & 545 & 18744\\
+\hline
+\end{tabular}
+\caption{Eine sehr vielaussagende Tabelle}\label{vielaussagend}
+\end{table}
+
+\blindtext[1]
+
+\section{Formeln}
+\begin{equation}
+   a=b
+    \label{eq:Eq3}
+\end{equation}
+
+
+\newpage
+ 
+\begin{align}
+\intertext{ Zum einen gilt: } 
+a+b&=c
+\intertext{zum anderen jedoch auch } 
+b=c
+\end{align}
+
+Also was ist folglich c?
+
+
+\begin{equation}\label{eq:Eq7}
+   a=b
+\end{equation}
+
+
+
+\begin{equation*}\label{eq:Eq2}
+   b=c
+\end{equation*}
+
+\begin{equation}
+    \label{eq:Eq10}
+    Y=Kd \ast \left(Xd + \frac{1}{Tn} + \int Xd\ dt + d\ \frac{Xd}{dt}\right)
+\end{equation}
+
+
+
+\newpage
+\section{Fazit und sicherheitstechnische Beurteilung der Facharbeit}
+\blindtext[1]\par\blindtext[1.2]
+
+
+
+
 
 \end{document}
 
