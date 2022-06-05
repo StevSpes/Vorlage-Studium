@@ -1,0 +1,1710 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.4.3)  5 JUN 2022 22:50
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"h:/01-DokumenteCloudWD/01 Duales Studium/01 Studium Maschinenbau/Latex/01 Vorlage-Studium-neu/01 Vorlage Studium.tex"
+(h:/01-DokumenteCloudWD/01 Duales Studium/01 Studium Maschinenbau/Latex/01 Vorlage-Studium-neu/01 Vorlage Studium.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24> (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrreprt.cls
+Document Class: scrreprt 2021/11/13 v3.35 KOMA-Script document class (report)
+(c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2021/11/13 v3.35 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+ (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2021/11/13 v3.35 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2021/11/13 v3.35 KOMA-Script package (file load hooks)
+ (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2021/11/13 v3.35 KOMA-Script package (using LaTeX hooks)
+ (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2021/11/13 v3.35 KOMA-Script package (logo)
+))) (c:/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
+)) (c:/texlive/2021/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2021/11/13 v3.35 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip47
+\scr@dte@tocline@numbox=\box50
+)
+Package tocbasic Info: babel extension for `toc' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 137.
+Package scrreprt Info: You've used standard option `12pt'.
+(scrreprt)             This is correct!
+(scrreprt)             Internally I'm using `fontsize=12pt'.
+(scrreprt)             If you'd like to set the option with \KOMAoptions,
+(scrreprt)             you'd have to use `fontsize=12pt' there
+(scrreprt)             instead of `12pt', too.
+Class scrreprt Info: You've used standard option `oneside'.
+(scrreprt)           This is correct!
+(scrreprt)           Internally I'm using `twoside=false'.
+(scrreprt)           If you'd like to set the option with \KOMAoptions,
+(scrreprt)           you'd have to use `twoside=false' there
+(scrreprt)           instead of `oneside', too.
+Class scrreprt Info: File `scrsize12pt.clo' used to setup font sizes on input line 2487.
+ (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2021/11/13 v3.35 KOMA-Script font size class option (12pt)
+) (c:/texlive/2021/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2021/11/13 v3.35 KOMA-Script package (type area)
+\ta@bcor=\skip48
+\ta@div=\count185
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+Package typearea Info: You've used standard option `oneside'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `twoside=false'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `twoside=false' there
+(typearea)             instead of `oneside', too.
+\ta@hblk=\skip49
+\ta@vblk=\skip50
+\ta@temp=\skip51
+\footheight=\skip52
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 12
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 448.13095pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1743.
+)
+\c@part=\count186
+\c@chapter=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\scr@dte@chapter@maxnumwidth=\skip53
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\chapter on input line 5717.
+\scr@dte@section@maxnumwidth=\skip54
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\section on input line 5728.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\section on input line 5728.
+\scr@dte@part@maxnumwidth=\skip55
+Class scrreprt Info: using compatibility default `afterindent=true'
+(scrreprt)           for `\part on input line 5737.
+\scr@dte@subsection@maxnumwidth=\skip56
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subsection on input line 5747.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subsection on input line 5747.
+\scr@dte@subsubsection@maxnumwidth=\skip57
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subsubsection on input line 5757.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subsubsection on input line 5757.
+\scr@dte@paragraph@maxnumwidth=\skip58
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\paragraph on input line 5768.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\paragraph on input line 5768.
+\scr@dte@subparagraph@maxnumwidth=\skip59
+Class scrreprt Info: using compatibility default `runin=bysign'
+(scrreprt)           for `\subparagraph on input line 5778.
+Class scrreprt Info: using compatibility default `afterindent=bysign'
+(scrreprt)           for `\subparagraph on input line 5778.
+\abovecaptionskip=\skip60
+\belowcaptionskip=\skip61
+\c@pti@nb@sid@b@x=\box51
+Package tocbasic Info: babel extension for `lof' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6958.
+\scr@dte@figure@maxnumwidth=\skip62
+\c@figure=\count193
+Package tocbasic Info: babel extension for `lot' omitted
+(tocbasic)             because of missing \bbl@set@language on input line 6974.
+\scr@dte@table@maxnumwidth=\skip63
+\c@table=\count194
+Class scrreprt Info: Redefining `\numberline' on input line 7142.
+\bibindent=\dimen138
+) (c:/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) (c:/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/02/26 3.73 The Babel package
+\babel@savecnt=\count195
+\U@D=\dimen139
+\l@unhyphenated=\language87
+ (c:/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count196
+ (c:/texlive/2021/texmf-dist/tex/generic/babel-german/ngerman.ldf
+Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthography)
+ (c:/texlive/2021/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2021/02/27 v2.13 German support for babel (post-1996 orthography)
+Package babel Info: Making " an active character on input line 122.
+))) (c:/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (c:/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+) (c:/texlive/2021/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2022/01/29 v0.5u Insert pages of external PDF documents (AM)
+ (c:/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+) (c:/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count197
+\calc@Bcount=\count198
+\calc@Adimen=\dimen142
+\calc@Bdimen=\dimen143
+\calc@Askip=\skip64
+\calc@Bskip=\skip65
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count199
+\calc@Cskip=\skip66
+) (c:/texlive/2021/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen144
+\ESO@tempdimb=\dimen145
+ (c:/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+))
+\AM@pagewidth=\dimen146
+\AM@pageheight=\dimen147
+\AM@fboxrule=\dimen148
+ (c:/texlive/2021/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2022/01/29 v0.5u Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count266
+\AM@pagebox=\box52
+\AM@global@opts=\toks19
+\AM@pagecnt=\count267
+\AM@toc@title=\toks20
+\c@AM@survey=\count268
+\AM@templatesizebox=\box53
+) (c:/texlive/2021/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+ (c:/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+ (c:/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen149
+\captionmargin=\dimen150
+\caption@leftmargin=\dimen151
+\caption@rightmargin=\dimen152
+\caption@width=\dimen153
+\caption@indent=\dimen154
+\caption@parindent=\dimen155
+\caption@hangindent=\dimen156
+Package caption Info: KOMA-Script document class detected.
+ (c:/texlive/2021/texmf-dist/tex/latex/caption/caption-koma.sto
+File: caption-koma.sto 2020/09/21 v2.0b Adaption of the caption package to the KOMA-Script document classes (AR)
+))
+\c@caption@flags=\count269
+\c@continuedfloat=\count270
+)
+\c@KVtest=\count271
+\sf@farskip=\skip67
+\sf@captopadj=\dimen157
+\sf@capskip=\skip68
+\sf@nearskip=\skip69
+\c@subfigure=\count272
+\c@subfigure@save=\count273
+\c@lofdepth=\count274
+\c@subtable=\count275
+\c@subtable@save=\count276
+\c@lotdepth=\count277
+\sf@top=\skip70
+\sf@bottom=\skip71
+) (c:/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+ (c:/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen158
+\ar@mcellbox=\box54
+\extrarowheight=\dimen159
+\NC@list=\toks21
+\extratabsurround=\skip72
+\backup@length=\skip73
+\ar@cellbox=\box55
+)
+\TX@col@width=\dimen160
+\TX@old@table=\dimen161
+\TX@old@col=\dimen162
+\TX@target=\dimen163
+\TX@delta=\dimen164
+\TX@cols=\count278
+\TX@ftn=\toks22
+) (c:/texlive/2021/texmf-dist/tex/latex/tabulary/tabulary.sty
+Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
+\TY@count=\count279
+\TY@linewidth=\dimen165
+\tymin=\dimen166
+\tymax=\dimen167
+\TY@tablewidth=\dimen168
+) (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip74
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks23
+\ex@=\dimen169
+)) (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen170
+) (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count280
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count281
+\leftroot@=\count282
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count283
+\DOTSCASE@=\count284
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box56
+\strutbox@=\box57
+\big@size=\dimen171
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count285
+\c@MaxMatrixCols=\count286
+\dotsspace@=\muskip16
+\c@parentequation=\count287
+\dspbrk@lvl=\count288
+\tag@help=\toks24
+\row@=\count289
+\column@=\count290
+\maxfields@=\count291
+\andhelp@=\toks25
+\eqnshift@=\dimen172
+\alignsep@=\dimen173
+\tagshift@=\dimen174
+\tagwidth@=\dimen175
+\totwidth@=\dimen176
+\lineht@=\dimen177
+\@envbody=\toks26
+\multlinegap=\skip75
+\multlinetaggap=\skip76
+\mathdisplay@stack=\toks27
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+) (c:/texlive/2021/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+) (c:/texlive/2021/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2022/03/14 v3.0d Micro-typographical refinements (RS)
+ (c:/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count292
+)
+\MT@toks=\toks28
+\MT@tempbox=\box58
+\MT@count=\count293
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1027.
+LaTeX Info: Redefining \leftprotrusion on input line 1028.
+LaTeX Info: Redefining \rightprotrusion on input line 1036.
+LaTeX Info: Redefining \textls on input line 1195.
+\MT@outer@kern=\dimen178
+LaTeX Info: Redefining \textmicrotypecontext on input line 1781.
+\MT@listname@count=\count294
+ (c:/texlive/2021/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2022/03/14 v3.0d Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 900.
+LaTeX Info: Redefining \lslig on input line 900.
+\MT@outer@space=\skip77
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+ (c:/texlive/2021/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2022/03/14 v3.0d microtype main configuration file (RS)
+)) (c:/texlive/2021/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/ztmcm/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/ztmcm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/ztmcm/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/ztmcm/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/ztmcm/m/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/ztmcm/m/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/ztmcm/m/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/ztmcm/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/ptm/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/ptm/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/ptm/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/ptm/m/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (c:/texlive/2021/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+) (c:/texlive/2021/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+ (c:/texlive/2021/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count295
+\c@Blindtext=\count296
+\c@blind@countparstart=\count297
+\blind@countxx=\count298
+\blindtext@numBlindtext=\count299
+\blind@countyy=\count300
+\c@blindlist=\count301
+\c@blindlistlevel=\count302
+\c@blindlist@level=\count303
+\blind@listitem=\count304
+\c@blind@listcount=\count305
+\c@blind@levelcount=\count306
+\blind@mathformula=\count307
+\blind@Mathformula=\count308
+\c@blind@randomcount=\count309
+\c@blind@randommax=\count310
+\c@blind@pangramcount=\count311
+\c@blind@pangrammax=\count312
+) (c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count313
+\Gm@cntv=\count314
+\c@Gm@tempcnt=\count315
+\Gm@bindingoffset=\dimen179
+\Gm@wd@mp=\dimen180
+\Gm@odd@mp=\dimen181
+\Gm@even@mp=\dimen182
+\Gm@layoutwidth=\dimen183
+\Gm@layoutheight=\dimen184
+\Gm@layouthoffset=\dimen185
+\Gm@layoutvoffset=\dimen186
+\Gm@dimlist=\toks29
+) (c:/texlive/2021/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
+Package: scrlayer-scrpage 2021/11/13 v3.35 KOMA-Script package (end user interface for scrlayer)
+ (c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrlayer.sty
+Package: scrlayer 2021/11/13 v3.35 KOMA-Script package (defining layers and page styles)
+Package scrlayer Info: Using already defined \footheight
+(scrlayer)             hoping, that this is a length and
+(scrlayer)             not only a macro on input line 136.
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 2162.
+)
+Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
+(scrlayer-scrpage)             alias to `pageheadfoot' on input line 1085.
+Package scrlayer-scrpage Info: deactivating warning for font element
+(scrlayer-scrpage)             `pagefoot' on input line 1109.
+)
+Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
+
+1: section
+1: chapter
+1: chapter
+1: section
+(c:/texlive/2021/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
+ (c:/texlive/2021/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+) (c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty (c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count316
+\decimalpart=\count317
+)
+Package: xstring 2021/07/21 v1.84 String manipulations (CT)
+)
+\AC@clearlist=\toks30
+) (c:/texlive/2021/texmf-dist/tex/latex/listofsymbols/listofsymbols.sty
+Package: listofsymbols 
+\symindent=\skip78
+\symwidth=\skip79
+\sympagenowidth=\skip80
+\old@parskip=\skip81
+\old@parindent=\skip82
+) (c:/texlive/2021/texmf-dist/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box59
+) (c:/texlive/2021/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+Package tocbasic Info: setting babel extension for `loe' on input line 99.
+\scr@dte@xequation@maxnumwidth=\skip83
+\c@xequation=\count318
+ (c:/texlive/2021/texmf-dist/tex/latex/xpatch/xpatch.sty (c:/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+ (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count319
+\l__pdf_internal_box=\box60
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+ (c:/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+))
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 154.
+ (c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+
+LaTeX Warning: Unused global option(s):
+    [final sectionentrydots].
+
+(./01 Vorlage Studium.aux)
+\openout1 = `"01 Vorlage Studium.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 154.
+LaTeX Font Info:    ... okay on input line 154.
+ (c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count320
+\scratchdimen=\dimen187
+\scratchbox=\box61
+\nofMPsegments=\count321
+\nofMParguments=\count322
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count323
+\MPscratchDim=\dimen188
+\MPnumerator=\count324
+\makeMPintoPDFobject=\count325
+\everyMPtoPDFconversion=\toks32
+) (c:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) (c:/texlive/2021/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \microtypecontext on input line 154.
+Package microtype Info: Applying patch `item' on input line 154.
+Package microtype Info: Applying patch `toc' on input line 154.
+Package microtype Info: Applying patch `eqnum' on input line 154.
+Package microtype Info: Applying patch `footnote' on input line 154.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 154.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+ (c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=591.5302pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-10.73834pt
+* \headheight=18.125pt
+* \headsep=21.75pt
+* \topskip=12.0pt
+* \footskip=50.75pt
+* \marginparwidth=49.79233pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package scrbase Info: activating ngerman \listoflofentryname on input line 154.
+Package scrbase Info: activating ngerman \listoflotentryname on input line 154.
+Package scrbase Info: activating ngerman \xequationname on input line 154.
+Package scrbase Info: activating ngerman \listxequationname on input line 154.
+\openout2 = `02_titelseite.aux'.
+
+(./02_titelseite.tex
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2.
+ (c:/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) (c:/texlive/2021/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2.
+ (c:/texlive/2021/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 2.
+ (c:/texlive/2021/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 2.
+ (c:/texlive/2021/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2.
+ (c:/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+<img/PHWT-Logo.jpg, id=1, 353.1594pt x 164.2938pt>
+File: img/PHWT-Logo.jpg Graphic file (type jpg)
+<use img/PHWT-Logo.jpg>
+Package pdftex.def Info: img/PHWT-Logo.jpg  used on input line 13.
+(pdftex.def)             Requested size: 353.15851pt x 164.29338pt.
+)
+Overfull \hbox (24.0pt too wide) in paragraph at lines 2--155
+[][] 
+ []
+
+[1
+
+
+{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/PHWT-Logo.jpg>]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(113.81102pt, 426.79135pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 686.7347pt, 101.40665pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=686.7347pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=41.54103pt
+* \topmargin=-55.23949pt
+* \headheight=18.125pt
+* \headsep=21.75pt
+* \topskip=12.0pt
+* \footskip=50.75pt
+* \marginparwidth=49.79233pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\openout2 = `erklärung.aux'.
+
+ (./erklärung.tex
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 4.
+ (c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+) [2
+
+
+
+
+]
+Package tocbasic Info: character protrusion at toc deactivated on input line 180.
+
+No file "01 Vorlage Studium".toc.
+\tf@toc=\write3
+\openout3 = `"01 Vorlage Studium.toc"'.
+
+[1
+
+
+
+]
+Package tocbasic Info: character protrusion at lot deactivated on input line 186.
+
+No file "01 Vorlage Studium".lot.
+\tf@lot=\write4
+\openout4 = `"01 Vorlage Studium.lot"'.
+
+[2
+
+]
+Package tocbasic Info: character protrusion at lof deactivated on input line 190.
+
+No file "01 Vorlage Studium".lof.
+\tf@lof=\write5
+\openout5 = `"01 Vorlage Studium.lof"'.
+
+[3
+
+]
+\@sym=\write6
+\openout6 = `"01 Vorlage Studium.sym"'.
+
+\@sub=\write7
+\openout7 = `"01 Vorlage Studium.sub"'.
+
+ (./01 Vorlage Studium.syc) (./01 Vorlage Studium.sym)
+Overfull \hbox (1.6207pt too wide) in paragraph at lines 1--224
+| [][] 
+ []
+
+
+Overfull \hbox (1.6207pt too wide) in paragraph at lines 1--224
+| [][] 
+ []
+
+
+Overfull \hbox (1.6207pt too wide) in paragraph at lines 1--224
+| [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--224
+
+ []
+
+[4
+
+]
+chapter 1.
+Package acronym Info: Label `acro:KDE' newly defined as it shall be overridden
+although it is yet undefined on input line 250.
+
+Package acronym Warning: Acronym `KDE' is not defined on input line 250.
+
+
+Package acronym Warning: Acronym `KDE' is not defined on input line 250.
+
+[1
+
+
+
+] [2]
+chapter 2.
+<img//render.png, id=33, 1084.05pt x 647.41875pt>
+File: img//render.png Graphic file (type png)
+<use img//render.png>
+Package pdftex.def Info: img//render.png  used on input line 270.
+(pdftex.def)             Requested size: 426.79733pt x 254.89284pt.
+
+LaTeX Warning: Reference `fig:render' on page 3 undefined on input line 276.
+
+
+LaTeX Warning: Reference `fig:render' on page 3 undefined on input line 276.
+
+[3
+
+ <./img//render.png>] [4] [5] [6]
+chapter 3.
+[7
+
+] [8]
+chapter 4.
+[9
+
+]
+chapter 5.
+[10
+
+]
+\openout2 = `Anhang/anhang.aux'.
+
+ (./Anhang/anhang.tex
+chapter A.
+
+./Anhang/anhang.tex:9: Package pdfpages Error: Cannot find file `test3'.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+
+./Anhang/anhang.tex:9: Package pdfpages Error: Cannot find file `1'.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+(That was another \errmessage.)
+
+./Anhang/anhang.tex:9: Undefined control sequence.
+\AM@checkpagenumber #1->\ifnum #1>\AM@pagecount 
+                                                \relax \ifthenelse {\boolean...
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Anhang/anhang.tex:9: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+./Anhang/anhang.tex:9: Package pdfpages Error: Page 1 of `\AM@currentdocname ' does not exist.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+You have set a wrong page number in the `pages' option. Document 
+`\AM@currentdocname ' does not have 1 pages.
+
+./Anhang/anhang.tex:9: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:9: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./Anhang/anhang.tex:9: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:9: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./Anhang/anhang.tex:9: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:9: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./Anhang/anhang.tex:9: LaTeX Error: File `\AM@currentdocname ' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./Anhang/anhang.tex:9: Arithmetic overflow.
+<recently read> \calc@Acount 
+                             
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+I can't carry out that multiplication or division,
+since the result is out of range.
+
+./Anhang/anhang.tex:9: Arithmetic overflow.
+<recently read> \calc@Acount 
+                             
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+I can't carry out that multiplication or division,
+since the result is out of range.
+
+./Anhang/anhang.tex:9: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:9: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./Anhang/anhang.tex:9: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:9: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./Anhang/anhang.tex:9: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:9: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./Anhang/anhang.tex:9: LaTeX Error: File `\AM@currentdocname ' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[11
+
+
+]
+./Anhang/anhang.tex:9: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:9: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./Anhang/anhang.tex:9: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:9: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./Anhang/anhang.tex:9: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:9: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./Anhang/anhang.tex:9: LaTeX Error: File `\AM@currentdocname ' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./Anhang/anhang.tex:9: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:9: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./Anhang/anhang.tex:9: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:9: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./Anhang/anhang.tex:9: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:9: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./Anhang/anhang.tex:9: LaTeX Error: File `\AM@currentdocname ' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./Anhang/anhang.tex:9: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:9: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./Anhang/anhang.tex:9: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:9: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./Anhang/anhang.tex:9: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:9: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./Anhang/anhang.tex:9: LaTeX Error: File `\AM@currentdocname ' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 ...mand=\section{Auszug aus einem PTB}]{test3}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[12]
+
+./Anhang/anhang.tex:10: Package pdfpages Error: Cannot find file `test3'.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+(That was another \errmessage.)
+
+
+./Anhang/anhang.tex:10: Package pdfpages Error: Cannot find file `2'.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+(That was another \errmessage.)
+
+./Anhang/anhang.tex:10: Undefined control sequence.
+\AM@checkpagenumber #1->\ifnum #1>\AM@pagecount 
+                                                \relax \ifthenelse {\boolean...
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Anhang/anhang.tex:10: Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+./Anhang/anhang.tex:10: Package pdfpages Error: Page 2 of `\AM@currentdocname ' does not exist.
+
+See the pdfpages package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+You have set a wrong page number in the `pages' option. Document 
+`\AM@currentdocname ' does not have 2 pages.
+
+./Anhang/anhang.tex:10: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:10: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./Anhang/anhang.tex:10: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:10: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./Anhang/anhang.tex:10: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:10: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./Anhang/anhang.tex:10: LaTeX Error: File `\AM@currentdocname ' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./Anhang/anhang.tex:10: Arithmetic overflow.
+<recently read> \calc@Acount 
+                             
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+I can't carry out that multiplication or division,
+since the result is out of range.
+
+./Anhang/anhang.tex:10: Arithmetic overflow.
+<recently read> \calc@Acount 
+                             
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+I can't carry out that multiplication or division,
+since the result is out of range.
+
+./Anhang/anhang.tex:10: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:10: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./Anhang/anhang.tex:10: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:10: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./Anhang/anhang.tex:10: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:10: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./Anhang/anhang.tex:10: LaTeX Error: File `\AM@currentdocname ' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./Anhang/anhang.tex:10: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:10: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./Anhang/anhang.tex:10: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:10: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./Anhang/anhang.tex:10: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:10: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./Anhang/anhang.tex:10: LaTeX Error: File `\AM@currentdocname ' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./Anhang/anhang.tex:10: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:10: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./Anhang/anhang.tex:10: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:10: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./Anhang/anhang.tex:10: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:10: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./Anhang/anhang.tex:10: LaTeX Error: File `\AM@currentdocname ' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./Anhang/anhang.tex:10: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:10: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./Anhang/anhang.tex:10: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:10: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./Anhang/anhang.tex:10: Missing endcsname inserted.
+<to be read again> 
+                   AM@currentdocname 
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./Anhang/anhang.tex:10: Use of ??? doesn't match its definition.
+<argument> ???  
+                ! LaTeX3 Error: AM@currentdocname invalid in file name. Lost: .
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+
+./Anhang/anhang.tex:10: LaTeX Error: File `\AM@currentdocname ' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...and=\section{Auszug aus einem PTB}]{test3}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[13]
+<Anhang/tabelle1.png, id=73, 404.26031pt x 224.33812pt>
+File: Anhang/tabelle1.png Graphic file (type png)
+<use Anhang/tabelle1.png>
+Package pdftex.def Info: Anhang/tabelle1.png  used on input line 17.
+(pdftex.def)             Requested size: 426.79135pt x 236.84564pt.
+) [14 <./Anhang/tabelle1.png>]
+\@syc=\write8
+\openout8 = `"01 Vorlage Studium.syc"'.
+
+ (./01 Vorlage Studium.sym)
+\@suc=\write9
+\openout9 = `"01 Vorlage Studium.suc"'.
+
+ (./01 Vorlage Studium.sub) (./01 Vorlage Studium.aux (./02_titelseite.aux) (./erklärung.aux) (./Anhang/anhang.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 15377 strings out of 478276
+ 307304 string characters out of 5850490
+ 805221 words of memory out of 5000000
+ 33177 multiletter control sequences out of 15000+600000
+ 518847 words of font info for 144 fonts, out of 8000000 for 9000
+ 1142 hyphenation exceptions out of 8191
+ 108i,19n,106p,10709b,583s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on "01 Vorlage Studium.pdf" (20 pages, 472025 bytes).
+PDF statistics:
+ 119 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 50704 words of extra memory for PDF output out of 51595 (max. 10000000)
+

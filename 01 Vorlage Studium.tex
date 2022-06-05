@@ -12,7 +12,7 @@
     %toc=chapterentrywithdots %Inhaltsverzeichnis mit Punkten
     sectionentrydots=true,
     toc = bibliography,
-]{scrartcl}
+]{scrreprt}
 %scrartcl -> Basis der Vorlage = Koma Script
 
 %Allgemeine Pakete
@@ -22,10 +22,14 @@
 
 
 % Graphik- und Tabellenpakete
-\usepackage[pdftex]{graphicx}                       %Implementierung Grafiken
+\usepackage[pdftex]{graphicx}                      %Implementierung 
+\usepackage{pdfpages}
+%Grafiken
 \graphicspath{{img/} }                              % Bildordner
 \usepackage{subfig}                                 % Mehrere Graphiken nebeneinander
 \usepackage{tabularx}                               %Tabellenpaket
+\usepackage{tabulary}                               %Tabellenbreite einstellen
+
 
 %Tabellen für Formeln und Gleichungen
 \usepackage{amsmath}
@@ -55,6 +59,20 @@
 %Verzeichnispakete 
 \usepackage[automark]{scrlayer-scrpage}             % Kopf und Fußzeile
 \usepackage[printonlyused,withpage]{acronym}        % Abkürzungsverzeichnis
+\usepackage[final]{listofsymbols}                   % Symbolverzeichnis
+\usepackage{eurosym}
+\usepackage{textcomp}
+\providecaptionname{ngerman}{\listoflofentryname}{Abbildung}
+\providecaptionname{ngerman}{\listoflotentryname}{Tabelle}
+\BeforeStartingTOC[lof]{\def\autodot{:}}
+\BeforeStartingTOC[lot]{\def\autodot{:}}
+%\KOMAoptions{listof=chaptergapline}  vertikaler Zeilenabstand Verzeichnisse
+%\KOMAoptions{listof = chapterentry}
+
+
+
+
+%\usepackage[]{nomencl}
 
 
 
@@ -62,12 +80,14 @@
 \renewcommand{\rmdefault}{ptm}
 \renewcommand{\sfdefault}{phv}
 \renewcommand\familydefault{\rmdefault}
-\addtokomafont{section}{\rmfamily\mdseries\Large \hspace*{-0.2cm}\vspace{-10pt}}
-\addtokomafont{subsection}{\normalfont\large\rmfamily\bfseries\hspace*{-0.2cm}\vspace{-10pt}}
-\addtokomafont{sectionentry}{\rmfamily\mdseries\large \hspace{-10pt}\vspace{-5pt}}
-\newcommand*{\smalltocentry}[1]{\normalfont #1}% To setup the small ToC entries (see \RedeclareSectionCommand[…]{section})
-\RedeclareSectionCommand[beforeskip=0pt,afterskip=\baselineskip,afterindent=false]{section}
-\RedeclareSectionCommand[beforeskip=0pt,afterskip=\baselineskip,afterindent=false,tocentryformat=\smalltocentry]{subsection}
+\addtokomafont{chapter}{\rmfamily\mdseries\Large \hspace*{-0.2cm}\vspace{-10pt}}
+\addtokomafont{section}{\normalfont\large\rmfamily\mdseries\hspace*{-0.2cm}\vspace{-10pt}}
+\addtokomafont{chapterentry}{\rmfamily\mdseries\large \hspace{0pt}\vspace{-5pt}}
+\newcommand*{\smalltocentry}[1]{\normalfont#1}% To setup the small ToC entries
+                                % (see \RedeclareSectionCommand[…]{section})
+\RedeclareSectionCommand[beforeskip=0pt,afterskip=\baselineskip,afterindent=false]{chapter}
+\RedeclareSectionCommand[beforeskip=0pt,afterskip=\baselineskip,afterindent=false,tocentryformat=\smalltocentry]{section}
+
 
 %Formelverzeichnis erstellen
 \DeclareNewTOC[%
@@ -83,10 +103,7 @@
   \newcaptionname{ngerman}\listxequationname{Formelverzeichnis}%
 }
 
-
-
-
-%\KOMAoptions{toc=chapterentrydotfill}
+%\KOMAoptions{toc=flat}
 
 %Formatierung des Tabellen/Abküerzungsverzeichnis anpassen
 %\usepackage{tocloft}
@@ -121,15 +138,21 @@
 
 
 
+
+%Anhang einstellen
+
+\usepackage{xpatch}
+%\xpatchcmd{\addsectiontocentry}{% Kapiteleinträge ins Inhaltsverzeichnis ändern
+  %\addtocentrydefault{section}{#1}{#2}% statt einfach die Standardeinträge zu 
+%\RedeclareSectionCommand[tocnumwidth=5.5em]{section}% Platz für die breiteren Nummern schaffen
+
+
+
+
+
+
 \begin{document}
 \include{02_titelseite.tex}
-
-
-
-
-%\hypersetup{pageanchor=true} %Hyperlinks erstellen
-\pagenumbering{Roman}
-
 
 %Absätze einstellen
 \newgeometry{left=4cm, right=2cm, top=2cm}
@@ -148,19 +171,32 @@
 \setlength{\intextsep}{12pt}
 \setlength{\textfloatsep}{12pt}
 
-\addcontentsline{toc}{section}{Inhaltsverzeichnis}
+
+\include{erklärung.tex}
+\pagenumbering{Roman}
+%\hypersetup{pageanchor=true} %Hyperlinks erstellen
+
+\addcontentsline{toc}{chapter}{Inhaltsverzeichnis}
 \tableofcontents
 %\setcounter{secnumdepth}{2}
 
 \newpage
-\listoftables % Tabellenverzeichnis
+
+\KOMAoptions{listof=entryprefix}
+\listoftables
+
+%\listoftables % Tabellenverzeichnis
 \vspace{2cm}
 \listoffigures  %Abbildungsverzeichnis
 \vspace{2cm}
-\section*{Abkürzungsverzeichnis} 
-\addcontentsline{toc}{section}{Abkürzungsverzeichnis} 
+\chapter*{Abkürzungsverzeichnis} 
+\addcontentsline{toc}{chapter}{Abkürzungsverzeichnis} 
 
 \begin{acronym}[Bash]
+%zu deklarieren mit: 
+%\acro{Abkürzung Eintrag}{Lang ausformuliert}
+% plural mit: \acroplural{dr}[Dres.]{Doktoren}
+
 \acro{KDE}{K Desktop Environment}
 \acro{dr}[Dr.]{Doktor}
 \acroplural{dr}[Dres.]{Doktoren}
@@ -170,6 +206,21 @@
 \acro{VM}{Virtuelle Maschine}
 \acro{I2C}[I²C]{Inter-Integrated Circuit}
 \end{acronym}
+
+
+\vspace{2cm}
+
+% Symbole für das Symbolverzeichnis deklarieren:
+% nur mit \symE (Abkürzung) verwendete Symbole werden gelistet. 
+\opensymdef\newsym[Energie in KJ]{symE}{E}
+\newsym[Masse in kg]{symm}{m}
+\newsym[Lichtgeschwindigkeit in Meter pro Sekunde]{symc}{c}
+
+
+\closesymdef{}
+\renewcommand{\symheadingname}{Symbolverzeichnis}
+\addcontentsline{toc}{chapter}{Symbolverzeichnis}
+\listofsymbols{}
 
 
 \vspace{2cm}
@@ -193,8 +244,7 @@
 \ohead{}
 
 
-
-\section{Einführung in das Thema}
+\chapter{Einführung in das Thema}
 
 This will be an empty chapter
 Vor Jahren waren \ac{KDE} die größten Vermittler der Welt. \\
@@ -203,15 +253,17 @@ Des lässt sich auch an xx feststellen. Der Mehrwert Bla Bla \blindtext\par
 
 \blindtext{}
 
-\subsection{Unterkapitel}
+\section{Unterkapitel}
 \blindtext{}
-\subsection{Noch eins}
-\subsection{Ein weiteres}
+\section{Noch eins}
+\section{Ein weiteres}
 
 \newpage
 
-\section{Grundlagen der Sterilisation und Rahmenbedingungen für die Konstruktion eines Dampfdruckbehälters}
-\blindtext[1]\par\blindtext[1.5]\par
+\chapter{Grundlagen der Sterilisation}
+\blindtext[1]
+
+\par
 
 \begin{figure}[htb]
     \centering  
@@ -221,43 +273,44 @@ Des lässt sich auch an xx feststellen. Der Mehrwert Bla Bla \blindtext\par
 
 \par
 
-Dies ist auch in Abbildung \ref{fig:render} sehr gut zu erkennen (vgl. Abb.\ref{fig:render}).
+Dies ist auch in Abbildung~\ref{fig:render} sehr gut zu erkennen (vgl. Abb.\ref{fig:render}).
 
 \blindtext[2] \par
 
 
-\subsection{Wahl der Dichtmittel}
+\section{Wahl der Dichtmittel}
 \blindtext[2] \par
 
-\subsection{Einflussgrößen auf die Auslegung nach AD2000}
+\section{Einflussgrößen auf die Auslegung nach AD2000}
 \blindtext[1]
 
 \begin{table}[htb]
 \centering
-\begin{tabular}{|c|cc|}
-    \hline
- Einheit & Benennung & Kategorie \\
+\begin{tabular}{|c|cc|} 
+ \hline
+ Einheit & Benennung & Kategorie \\ %[0.5ex] 
  \hline
  m & 6 & 8783 \\ 
  s & 7 & 78 \\
  V & 545 & 778\\
  A & 545 & 18744\\
-\hline
+ \hline
 \end{tabular}
 \caption{Eine sehr vielaussagende Tabelle}\label{vielaussagend}
 \end{table}
 
 \blindtext[1]
+\newpage
 
-\section{Formeln}
+
+\chapter{Kapitel mit einige Formeln}
+\blindtext{}
+
 \begin{equation}
    a=b
     \label{eq:Eq3}
 \end{equation}
 
-
-\newpage
- 
 \begin{align}
 \intertext{ Zum einen gilt: } 
 a+b&=c
@@ -267,6 +320,7 @@ b=c
 
 Also was ist folglich c?
 
+\blindtext{}
 
 \begin{equation}\label{eq:Eq7}
    a=b
@@ -284,12 +338,23 @@ Also was ist folglich c?
 \end{equation}
 
 
+\newpage
+
+\chapter{Kapitel mit Symbolen}
+
+Hier stehen gleich einige Symbole, die im Symbolverzeichnis aufgelistet werden sollen.
+\[\symE=\symm \symc^2\]
+
+where \symE~is the energy \ldots
+
 
 \newpage
-\section{Fazit und sicherheitstechnische Beurteilung der Facharbeit}
-\blindtext[1]\par\blindtext[1.2]
+\chapter{Fazit und sicherheitstechnische Beurteilung der Facharbeit}
+\blindtext{}
+\par
+\blindtext{}
 
-
+\include{Anhang/anhang.tex}
 
 
 
