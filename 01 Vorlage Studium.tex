@@ -4,14 +4,14 @@
     a4paper, % Papierformat
     oneside, % einseitiges Dokument
     headings=big, % Größe der Überschriften verkleinern
-    listof=totoc, % Verzeichnisse im Inhaltsverzeichnis aufführen
-    bibliography=totoc, % Literaturverzeichnis im Inhaltsverzeichnis aufführen
+    nolistof=totoc, % Verzeichnisse im Inhaltsverzeichnis aufführen
+    nobibliography=totoc, % Literaturverzeichnis im Inhaltsverzeichnis aufführen
     index=totoc, % Index im Inhaltsverzeichnis aufführen
     captions=tableheading, % Beschriftung von Tabellen unterhalb ausgeben
     final % Status des Dokuments (final/draft)
     %toc=chapterentrywithdots %Inhaltsverzeichnis mit Punkten
     sectionentrydots=true,
-    toc = bibliography,
+    toc = bibliography
 ]{scrreprt}
 %scrartcl -> Basis der Vorlage = Koma Script
 
@@ -19,7 +19,6 @@
 \usepackage[utf8]{inputenc} 
 \usepackage[ngerman]{babel}                         %Landessprache Deutsch
 \usepackage[T1]{fontenc}                            %Schriftformatierung
-
 
 % Graphik- und Tabellenpakete
 \usepackage[pdftex]{graphicx}                      %Implementierung 
@@ -30,13 +29,11 @@
 \usepackage{tabularx}                               %Tabellenpaket
 \usepackage{tabulary}                               %Tabellenbreite einstellen
 
-
 %Tabellen für Formeln und Gleichungen
 \usepackage{amsmath}
 
-
 %Hyperlinks (erst am Ende aktivieren)
-%\usepackage{hyperref}                              %Erstellen von Hyperlinks
+%\usepackage[colorlinks,pdfpagelabels,pdfstartview = FitH,bookmarksopen = true,bookmarksnumbered = true,linkcolor = black,plainpages = true,hypertexnames = false,citecolor = black] {hyperref} %Erstellen von Hyperlinks
 %\usepackage[figure]{hypcap}                        %Hyperlinks für Abbildungen
 
 
@@ -62,19 +59,15 @@
 \usepackage[final]{listofsymbols}                   % Symbolverzeichnis
 \usepackage{eurosym}
 \usepackage{textcomp}
+
 \providecaptionname{ngerman}{\listoflofentryname}{Abbildung}
 \providecaptionname{ngerman}{\listoflotentryname}{Tabelle}
 \BeforeStartingTOC[lof]{\def\autodot{:}}
 \BeforeStartingTOC[lot]{\def\autodot{:}}
-%\KOMAoptions{listof=chaptergapline}  vertikaler Zeilenabstand Verzeichnisse
-%\KOMAoptions{listof = chapterentry}
 
-
-
-
-%\usepackage[]{nomencl}
-
-
+\usepackage[citestyle=numeric-verb,backend=biber,style=numeric]{biblatex}
+\usepackage[autostyle,german=guillemets,german=quotes]{csquotes}
+\addbibresource{literaturverzeichnis.bib}
 
 %Schriftarten von Section, Chapter, Text etc. einstellen, Format Inhaltsverzeichnis
 \renewcommand{\rmdefault}{ptm}
@@ -82,73 +75,29 @@
 \renewcommand\familydefault{\rmdefault}
 \addtokomafont{chapter}{\rmfamily\mdseries\Large \hspace*{-0.2cm}\vspace{-10pt}}
 \addtokomafont{section}{\normalfont\large\rmfamily\mdseries\hspace*{-0.2cm}\vspace{-10pt}}
-\addtokomafont{chapterentry}{\rmfamily\mdseries\large \hspace{0pt}\vspace{-5pt}}
-\newcommand*{\smalltocentry}[1]{\normalfont#1}% To setup the small ToC entries
-                                % (see \RedeclareSectionCommand[…]{section})
+\addtokomafont{chapterentry}{\rmfamily\mdseries\large \hspace{0pt}\vspace{0pt}}
+\addtokomafont{partentry}{\vspace{-30pt}\rmfamily\mdseries\large \hspace{0pt}}
+
+%Seitenabstände und Abstände zwischend den Kapiteln
 \RedeclareSectionCommand[beforeskip=0pt,afterskip=\baselineskip,afterindent=false]{chapter}
-\RedeclareSectionCommand[beforeskip=0pt,afterskip=\baselineskip,afterindent=false,tocentryformat=\smalltocentry]{section}
+\RedeclareSectionCommand[beforeskip=0pt,afterindent=false]{section}
 
-
-%Formelverzeichnis erstellen
-\DeclareNewTOC[%
-  counterwithin=chapter,
-  %indent=0pt,% kein Einzug im Verzeichnis
-  %hang=2em,% Einzug für den Text im Verzeichnis
-  name=equation,
-  type=xequation,
-  nonfloat]{loe}
+%Vertikalen Abstand zwischen Verzeichnissen und eigentlichem Text einfügen
+\DeclareTOCStyleEntry[
+  onstarthigherlevel=\addvspace{4em}
+]{part}{chapter}
 
 \AtBeginDocument{%
   \newcaptionname{ngerman}\xequationname{Formel}%
   \newcaptionname{ngerman}\listxequationname{Formelverzeichnis}%
 }
 
-%\KOMAoptions{toc=flat}
-
-%Formatierung des Tabellen/Abküerzungsverzeichnis anpassen
-%\usepackage{tocloft}
-%\renewcommand{\cftfigpresnum}{Abbildung. }
-%\renewcommand{\cfttabpresnum}{Tabelle. }
-
-%\renewcommand{\cftfigaftersnum}{:}
-%\renewcommand{\cfttabaftersnum}{:}
-
-%\setlength{\cftfignumwidth}{2cm}
-%\setlength{\cfttabnumwidth}{2cm}
-
-%\setlength{\cftfigindent}{0cm}
-%\setlength{\cfttabindent}{0cm}
-
-%\renewcommand{\figurename}{Abb.}
-%\renewcommand{\tablename}{Tab.}
-
-
-%\renewcommand{\cftfigpresnum}{Abb. }
-%\settowidth{\cftfignumwidth}{Abb. 10\quad}
-%\setlength{\cftfignumwidth}{2cm}
-
-
-
 
 % Kopf- und Fußzeile der ersten Seiten (Paket scrlayer-scrpage)
 \pagestyle{scrheadings}
 \clearmainofpairofpagestyles{}  % alle Felder leeren
 %\ihead{}\chead{}\chead{}
-\ohead{\pagemark}               % Seitenzahl oben rechts
-
-
-
-
-%Anhang einstellen
-
-\usepackage{xpatch}
-%\xpatchcmd{\addsectiontocentry}{% Kapiteleinträge ins Inhaltsverzeichnis ändern
-  %\addtocentrydefault{section}{#1}{#2}% statt einfach die Standardeinträge zu 
-%\RedeclareSectionCommand[tocnumwidth=5.5em]{section}% Platz für die breiteren Nummern schaffen
-
-
-
-
+\cfoot{\pagemark}               % Seitenzahl oben rechts
 
 
 \begin{document}
@@ -176,21 +125,30 @@
 \pagenumbering{Roman}
 %\hypersetup{pageanchor=true} %Hyperlinks erstellen
 
-\addcontentsline{toc}{chapter}{Inhaltsverzeichnis}
+
 \tableofcontents
+%\addtocontents{toc}{~\hfill\textbf{Seite}\par}
+
+\cleardoublepage{}%wichtig, sonst falsche Seitennr.
+\addcontentsline{toc}{part}{Inhaltsverzeichnis}
 %\setcounter{secnumdepth}{2}
 
 \newpage
 
 \KOMAoptions{listof=entryprefix}
+\addtocontents{lot}{\protect\addcontentsline{toc}{part}{\listtablename}}
 \listoftables
 
 %\listoftables % Tabellenverzeichnis
 \vspace{2cm}
+\addtocontents{lof}{\protect\addcontentsline{toc}{part}{\listfigurename}}
 \listoffigures  %Abbildungsverzeichnis
+
+
 \vspace{2cm}
+\cleardoublepage{}
 \chapter*{Abkürzungsverzeichnis} 
-\addcontentsline{toc}{chapter}{Abkürzungsverzeichnis} 
+\addcontentsline{toc}{part}{Abkürzungsverzeichnis} 
 
 \begin{acronym}[Bash]
 %zu deklarieren mit: 
@@ -218,33 +176,31 @@
 
 
 \closesymdef{}
+
+
 \renewcommand{\symheadingname}{Symbolverzeichnis}
-\addcontentsline{toc}{chapter}{Symbolverzeichnis}
+\cleardoublepage{}
+\addcontentsline{toc}{part}{Symbolverzeichnis}
 \listofsymbols{}
 
 
 \vspace{2cm}
 
-
-%\section*{Formelverzeichnis} 
-%\addcontentsline{toc}{section}{Formelverzeichnis} 
-%\renewcommand{\listtablename}{}
-
-
 \cleardoublepage{}
+\chapter*{Formelverzeichnis} 
+\addcontentsline{toc}{part}{Formelverzeichnis} 
+\renewcommand{\listtablename}{Formel}
 
 
 %Ab hier beginnt das eigentliche Dokument
 
 \newpage
-\pagenumbering{arabic}
-\ofoot{\thepage}
-\ihead{}
-\chead{}
-\ohead{}
 
 
 \chapter{Einführung in das Thema}
+\pagenumbering{arabic}
+
+
 
 This will be an empty chapter
 Vor Jahren waren \ac{KDE} die größten Vermittler der Welt. \\
@@ -323,7 +279,7 @@ Also was ist folglich c?
 \blindtext{}
 
 \begin{equation}\label{eq:Eq7}
-   a=b
+a=b
 \end{equation}
 
 
@@ -342,8 +298,8 @@ Also was ist folglich c?
 
 \chapter{Kapitel mit Symbolen}
 
-Hier stehen gleich einige Symbole, die im Symbolverzeichnis aufgelistet werden sollen.
-\[\symE=\symm \symc^2\]
+Hier stehen gleich einige Symbole, die im Symbolverzeichnis aufgelistet werden sollen.~\cite[S.~49]{Wittel.2021b}
+\[\symE=\symm \symc^2\]~\cite{VerbandderTUVe.V..2020}
 
 where \symE~is the energy \ldots
 
@@ -356,7 +312,8 @@ where \symE~is the energy \ldots
 
 \include{Anhang/anhang.tex}
 
-
+\newpage
+\printbibliography[title=Literaturverzeichnis]
 
 \end{document}
 

@@ -1,11 +1,12 @@
 \babel@toc {ngerman}{}\relax 
-\contentsline {chapter}{Inhaltsverzeichnis}{I}{}%
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{II}{}%
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{III}{}%
-\contentsline {chapter}{Abkürzungsverzeichnis}{IV}{}%
-\contentsline {chapter}{Symbolverzeichnis}{IV}{}%
+\contentsline {part}{Inhaltsverzeichnis}{II}{}%
+\contentsline {part}{Tabellenverzeichnis}{II}{}%
+\contentsline {part}{Abbildungsverzeichnis}{III}{}%
+\contentsline {part}{Abkürzungsverzeichnis}{IV}{}%
+\contentsline {part}{Symbolverzeichnis}{V}{}%
+\contentsline {part}{Formelverzeichnis}{VI}{}%
 \contentsline {chapter}{\numberline {1}Einführung in das Thema}{1}{}%
-\contentsline {section}{\numberline {1.1}Unterkapitel}{2}{}%
+\contentsline {section}{\numberline {1.1}Unterkapitel}{1}{}%
 \contentsline {section}{\numberline {1.2}Noch eins}{2}{}%
 \contentsline {section}{\numberline {1.3}Ein weiteres}{2}{}%
 \contentsline {chapter}{\numberline {2}Grundlagen der Sterilisation}{3}{}%
@@ -16,6 +17,6 @@
 \contentsline {chapter}{\numberline {5}Fazit und sicherheitstechnische Beurteilung der Facharbeit}{10}{}%
 \contentsline {chapter}{\numberline {A}Anhang}{11}{}%
 \contentsline {section}{\numberline {A.1}Auszug aus einem PTB}{12}{}%
-\contentsline {section}{\numberline {A.2}Auszug aus einem PTB}{13}{}%
-\contentsline {section}{\numberline {A.3}Auszug aus der Tabelle xy}{14}{}%
+\contentsline {section}{\numberline {A.2}Auszug aus der Tabelle xy}{13}{}%
+\contentsline {chapter}{\nonumberline Literaturverzeichnis}{14}{}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
