@@ -4,316 +4,37 @@
     a4paper, % Papierformat
     oneside, % einseitiges Dokument
     headings=big, % Größe der Überschriften verkleinern
-    nolistof=totoc, % Verzeichnisse im Inhaltsverzeichnis aufführen
-    nobibliography=totoc, % Literaturverzeichnis im Inhaltsverzeichnis aufführen
+    nolistof=totoc, % Verzeichnisse nicht im Inhaltsverzeichnis aufführen, eigene Einstellung
+    bibliography=totoc, % Literaturverzeichnis im Inhaltsverzeichnis aufführen
     index=totoc, % Index im Inhaltsverzeichnis aufführen
     captions=tableheading, % Beschriftung von Tabellen unterhalb ausgeben
     final % Status des Dokuments (final/draft)
     %toc=chapterentrywithdots %Inhaltsverzeichnis mit Punkten
-    sectionentrydots=true,
-    toc = bibliography
+    sectionentrydots=true   %Sectioneinträge in IHV mit Punkten versehen
 ]{scrreprt}
-%scrartcl -> Basis der Vorlage = Koma Script
+%scrreprt -> Basis der Befehle: Koma Script siehe 500+ Seiten Anleitung
 
-%Allgemeine Pakete
-\usepackage[utf8]{inputenc} 
-\usepackage[ngerman]{babel}                         %Landessprache Deutsch
-\usepackage[T1]{fontenc}                            %Schriftformatierung
-
-% Graphik- und Tabellenpakete
-\usepackage[pdftex]{graphicx}                      %Implementierung 
-\usepackage{pdfpages}
-%Grafiken
-\graphicspath{{img/} }                              % Bildordner
-\usepackage{subfig}                                 % Mehrere Graphiken nebeneinander
-\usepackage{tabularx}                               %Tabellenpaket
-\usepackage{tabulary}                               %Tabellenbreite einstellen
-
-%Tabellen für Formeln und Gleichungen
-\usepackage{amsmath}
-
-%Hyperlinks (erst am Ende aktivieren)
-%\usepackage[colorlinks,pdfpagelabels,pdfstartview = FitH,bookmarksopen = true,bookmarksnumbered = true,linkcolor = black,plainpages = true,hypertexnames = false,citecolor = black] {hyperref} %Erstellen von Hyperlinks
-%\usepackage[figure]{hypcap}                        %Hyperlinks für Abbildungen
-
-
-%Schriftdarstellung und Textoptimierung 
-\usepackage{mathptmx}               % Times New Roman
-\usepackage{microtype}              % Blocksatzbildung
-\hyphenation{De-zi-mal-tren-nung}   % Deutsche Zeilenbrüche
-\usepackage{color}                  % Möglichkeit zum Verwenden von Farben
-\usepackage{lmodern}                % bessere Fonts
-\usepackage{relsize}                % Schriftgröße relativ festlegen
-\usepackage{blindtext}              %Packet Blindtext zum Einfügen von sinnlosen Text
-
-
-% Pakete für Geometrie und Abstände
-\usepackage{geometry} %zunächst auf Standardeinstellungen belassen...
-\usepackage{setspace} 
-
-
-
-%Verzeichnispakete 
-\usepackage[automark]{scrlayer-scrpage}             % Kopf und Fußzeile
-\usepackage[printonlyused,withpage]{acronym}        % Abkürzungsverzeichnis
-\usepackage[final]{listofsymbols}                   % Symbolverzeichnis
-\usepackage{eurosym}
-\usepackage{textcomp}
-
-\providecaptionname{ngerman}{\listoflofentryname}{Abbildung}
-\providecaptionname{ngerman}{\listoflotentryname}{Tabelle}
-\BeforeStartingTOC[lof]{\def\autodot{:}}
-\BeforeStartingTOC[lot]{\def\autodot{:}}
-
-\usepackage[citestyle=numeric-verb,backend=biber,style=numeric]{biblatex}
-\usepackage[autostyle,german=guillemets,german=quotes]{csquotes}
-\addbibresource{literaturverzeichnis.bib}
-
-%Schriftarten von Section, Chapter, Text etc. einstellen, Format Inhaltsverzeichnis
-\renewcommand{\rmdefault}{ptm}
-\renewcommand{\sfdefault}{phv}
-\renewcommand\familydefault{\rmdefault}
-\addtokomafont{chapter}{\rmfamily\mdseries\Large \hspace*{-0.2cm}\vspace{-10pt}}
-\addtokomafont{section}{\normalfont\large\rmfamily\mdseries\hspace*{-0.2cm}\vspace{-10pt}}
-\addtokomafont{chapterentry}{\rmfamily\mdseries\large \hspace{0pt}\vspace{0pt}}
-\addtokomafont{partentry}{\vspace{-30pt}\rmfamily\mdseries\large \hspace{0pt}}
-
-%Seitenabstände und Abstände zwischend den Kapiteln
-\RedeclareSectionCommand[beforeskip=0pt,afterskip=\baselineskip,afterindent=false]{chapter}
-\RedeclareSectionCommand[beforeskip=0pt,afterindent=false]{section}
-
-%Vertikalen Abstand zwischen Verzeichnissen und eigentlichem Text einfügen
-\DeclareTOCStyleEntry[
-  onstarthigherlevel=\addvspace{4em}
-]{part}{chapter}
-
-\AtBeginDocument{%
-  \newcaptionname{ngerman}\xequationname{Formel}%
-  \newcaptionname{ngerman}\listxequationname{Formelverzeichnis}%
-}
-
-
-% Kopf- und Fußzeile der ersten Seiten (Paket scrlayer-scrpage)
-\pagestyle{scrheadings}
-\clearmainofpairofpagestyles{}  % alle Felder leeren
-%\ihead{}\chead{}\chead{}
-\cfoot{\pagemark}               % Seitenzahl oben rechts
-
+\include{01_Konfig/1.1_pakete}
+\include{01_Konfig/1.2_einstellungen}
 
 \begin{document}
-\include{02_titelseite.tex}
 
-%Absätze einstellen
-\newgeometry{left=4cm, right=2cm, top=2cm}
-\setlength{\parindent}{0cm}                     % Einrücken des Textes bei neuem Absatz
-\setlength{\parskip}{0.5cm}                     % Vertikaler Abstand der Absätze
-\doublespacing{}                                % Zeilenabstand
-
-% Seitenränder für das Textdokument einstellen
-\setlength{\headheight}{1.5cm}                  % Höhe Kopfzeile
-\setlength{\voffset}{2.5cm}                     % Abstand Oberer Rand - Textfeld
-\setlength{\topmargin}{-4.5cm}                  % Abstand Oberer Rand - Text oben
-\setlength{\headsep}{0.5cm}                     % Abstand Kopfzeile - Text oben 
-\setlength{\footskip}{2cm}                      % Abstand Fußzeile - Text unten
-\setlength{\footheight}{1.5cm}                  % Höhe Fußzeile
-%Abstand Gleitumgebungen zum Text
-\setlength{\intextsep}{12pt}
-\setlength{\textfloatsep}{12pt}
-
-
-\include{erklärung.tex}
-\pagenumbering{Roman}
-%\hypersetup{pageanchor=true} %Hyperlinks erstellen
-
-
-\tableofcontents
-%\addtocontents{toc}{~\hfill\textbf{Seite}\par}
-
-\cleardoublepage{}%wichtig, sonst falsche Seitennr.
-\addcontentsline{toc}{part}{Inhaltsverzeichnis}
-%\setcounter{secnumdepth}{2}
-
-\newpage
-
-\KOMAoptions{listof=entryprefix}
-\addtocontents{lot}{\protect\addcontentsline{toc}{part}{\listtablename}}
-\listoftables
-
-%\listoftables % Tabellenverzeichnis
-\vspace{2cm}
-\addtocontents{lof}{\protect\addcontentsline{toc}{part}{\listfigurename}}
-\listoffigures  %Abbildungsverzeichnis
-
-
-\vspace{2cm}
-\cleardoublepage{}
-\chapter*{Abkürzungsverzeichnis} 
-\addcontentsline{toc}{part}{Abkürzungsverzeichnis} 
-
-\begin{acronym}[Bash]
-%zu deklarieren mit: 
-%\acro{Abkürzung Eintrag}{Lang ausformuliert}
-% plural mit: \acroplural{dr}[Dres.]{Doktoren}
-
-\acro{KDE}{K Desktop Environment}
-\acro{dr}[Dr.]{Doktor}
-\acroplural{dr}[Dres.]{Doktoren}
-\acro{SQL}{Structured Query Language}
-\acro{Bash}{Bourne-again shell}
-\acro{JDK}{Java Development Kit}
-\acro{VM}{Virtuelle Maschine}
-\acro{I2C}[I²C]{Inter-Integrated Circuit}
-\end{acronym}
-
-
-\vspace{2cm}
-
-% Symbole für das Symbolverzeichnis deklarieren:
-% nur mit \symE (Abkürzung) verwendete Symbole werden gelistet. 
-\opensymdef\newsym[Energie in KJ]{symE}{E}
-\newsym[Masse in kg]{symm}{m}
-\newsym[Lichtgeschwindigkeit in Meter pro Sekunde]{symc}{c}
-
-
-\closesymdef{}
-
-
-\renewcommand{\symheadingname}{Symbolverzeichnis}
-\cleardoublepage{}
-\addcontentsline{toc}{part}{Symbolverzeichnis}
-\listofsymbols{}
-
-
-\vspace{2cm}
-
-\cleardoublepage{}
-\chapter*{Formelverzeichnis} 
-\addcontentsline{toc}{part}{Formelverzeichnis} 
-\renewcommand{\listtablename}{Formel}
-
+\include{01_Konfig/1.3_titelseite}
+\include{01_Konfig/1.4_verzeichnisse}
 
 %Ab hier beginnt das eigentliche Dokument
 
-\newpage
+\include{02_Dokumente/2.1_Beispielkapitel}
+% 
+% weitere Dokumente / Kapitel
+% 
 
 
-\chapter{Einführung in das Thema}
-\pagenumbering{arabic}
+% Schlussteil: 
+\include{Anhang/anhang}                     % Anhang
+\newpage                                        
+\printbibliography[title=Literaturverzeichnis]  % Literaturverzeichnis erstellen
+\include{01_Konfig/1.5_erklärung}               % Eidestattliche Erklärung
 
-
-
-This will be an empty chapter
-Vor Jahren waren \ac{KDE} die größten Vermittler der Welt. \\
-Des lässt sich auch an xx feststellen. Der Mehrwert Bla Bla \blindtext\par
-
-
-\blindtext{}
-
-\section{Unterkapitel}
-\blindtext{}
-\section{Noch eins}
-\section{Ein weiteres}
-
-\newpage
-
-\chapter{Grundlagen der Sterilisation}
-\blindtext[1]
-
-\par
-
-\begin{figure}[htb]
-    \centering  
-    \includegraphics[keepaspectratio,width=\textwidth,height=\textheight]{render.png}
-    \caption{3D Darstellung des Dampfdruckbehälters}\label{fig:render}
-\end{figure}
-
-\par
-
-Dies ist auch in Abbildung~\ref{fig:render} sehr gut zu erkennen (vgl. Abb.\ref{fig:render}).
-
-\blindtext[2] \par
-
-
-\section{Wahl der Dichtmittel}
-\blindtext[2] \par
-
-\section{Einflussgrößen auf die Auslegung nach AD2000}
-\blindtext[1]
-
-\begin{table}[htb]
-\centering
-\begin{tabular}{|c|cc|} 
- \hline
- Einheit & Benennung & Kategorie \\ %[0.5ex] 
- \hline
- m & 6 & 8783 \\ 
- s & 7 & 78 \\
- V & 545 & 778\\
- A & 545 & 18744\\
- \hline
-\end{tabular}
-\caption{Eine sehr vielaussagende Tabelle}\label{vielaussagend}
-\end{table}
-
-\blindtext[1]
-\newpage
-
-
-\chapter{Kapitel mit einige Formeln}
-\blindtext{}
-
-\begin{equation}
-   a=b
-    \label{eq:Eq3}
-\end{equation}
-
-\begin{align}
-\intertext{ Zum einen gilt: } 
-a+b&=c
-\intertext{zum anderen jedoch auch } 
-b=c
-\end{align}
-
-Also was ist folglich c?
-
-\blindtext{}
-
-\begin{equation}\label{eq:Eq7}
-a=b
-\end{equation}
-
-
-
-\begin{equation*}\label{eq:Eq2}
-   b=c
-\end{equation*}
-
-\begin{equation}
-    \label{eq:Eq10}
-    Y=Kd \ast \left(Xd + \frac{1}{Tn} + \int Xd\ dt + d\ \frac{Xd}{dt}\right)
-\end{equation}
-
-
-\newpage
-
-\chapter{Kapitel mit Symbolen}
-
-Hier stehen gleich einige Symbole, die im Symbolverzeichnis aufgelistet werden sollen.~\cite[S.~49]{Wittel.2021b}
-\[\symE=\symm \symc^2\]~\cite{VerbandderTUVe.V..2020}
-
-where \symE~is the energy \ldots
-
-
-\newpage
-\chapter{Fazit und sicherheitstechnische Beurteilung der Facharbeit}
-\blindtext{}
-\par
-\blindtext{}
-
-\include{Anhang/anhang.tex}
-
-\newpage
-\printbibliography[title=Literaturverzeichnis]
 
 \end{document}
-

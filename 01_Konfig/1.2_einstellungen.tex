@@ -1,0 +1,84 @@
+%
+%
+% Dies sind die vor Grundeinstellungen für das Dokument. Hier werden Verzeichnisse umbenannt, Seitenabstände, Blattgeometrien, Kopf/Fußzeilen eingerichtet. 
+
+
+
+%Schriftarten von Überschriften und Inhaltsverzeichniseinträgen einstellen:
+\renewcommand{\rmdefault}{ptm}
+\renewcommand{\sfdefault}{phv}
+\renewcommand\familydefault{\rmdefault}
+\addtokomafont{chapter}{\rmfamily\mdseries\Large \hspace*{-0.2cm}\vspace{-10pt}}
+\addtokomafont{section}{\normalfont\large\rmfamily\mdseries\hspace*{-0.2cm}\vspace{-10pt}}
+\addtokomafont{subsection}{\normalfont\large\rmfamily\mdseries\hspace*{-0.2cm}\vspace{-10pt}}
+\addtokomafont{chapterentry}{\rmfamily\mdseries\large \hspace{0pt}\vspace{-0pt}}
+\addtokomafont{part}{\rmfamily\mdseries\Large \hspace*{-0.2cm}\vspace{-10pt}}
+\addtokomafont{partentry}{\vspace{-30pt}\rmfamily\mdseries\large \hspace{0pt}}
+
+%Seitenabstände und Abstände zwischend den Kapiteln einstellen
+\RedeclareSectionCommand[beforeskip=0pt,afterskip=\baselineskip,afterindent=false]{chapter}
+\RedeclareSectionCommand[beforeskip=0pt,afterindent=false]{section}
+\RedeclareSectionCommand[beforeskip=-10pt,afterskip=\baselineskip,afterindent=false]{subsection}
+
+%Vertikalen Abstand zwischen Verzeichnissen und eigentlichem Text einfügen
+\DeclareTOCStyleEntry[
+  onstarthigherlevel=\addvspace{4em}
+]{part}{chapter}
+\DeclareTOCStyleEntry[
+ onstarthigherlevel=\addvspace{3em}
+]{section}{chapter}
+
+
+
+%Umbenennen und Einstellen für das Tabellen und Abbildungsverzeichnsi
+\KOMAoptions{listof=entryprefix}                                % Einstellung: Formulierung vor Verzeichniseintrag
+\providecaptionname{ngerman}{\listoflofentryname}{Abbildung}    % "Abbildung" vor vor dem jeweiligen Vz. Eintrag
+\providecaptionname{ngerman}{\listoflotentryname}{Tabelle}      % "Tabelle" vor vor dem jeweiligen Vz. Eintrag
+\BeforeStartingTOC[lof]{\def\autodot{:}}                        % Doppelpunktsetzung Abbildungsverzeichnis
+\BeforeStartingTOC[lot]{\def\autodot{:}}                        % Doppelpunktsetzung Tabellenverzeichnis
+\counterwithout{figure}{chapter}                                % Verzeichniseinträge ohne Kapitelbezug
+\counterwithout{table}{chapter}                                 
+
+% Symbolverzeichniseinstellungen
+\renewcommand{\symheadingname}{Symbolverzeichnis}               % Umbenennen
+\setlength{\symwidth}{4cm}                                      % Abstand zwischen Symbol und Erklärung einstellen 
+
+
+% Kopf- und Fußzeile der ersten Seiten (Paket scrlayer-scrpage)
+\pagestyle{scrheadings}
+\clearmainofpairofpagestyles{}  % alle Felder leeren
+%\ihead{}\chead{}\chead{}
+\cfoot{\pagemark}               % Seitenzahl unten mittig
+
+
+%Absätze einstellen
+\setlength{\parindent}{0cm}                     % Einrücken des Textes bei neuem Absatz
+\setlength{\parskip}{0.5cm}                     % Vertikaler Abstand der Absätze
+\doublespacing{}                                % Allgemeiner Zeilenabstand
+%\setlength\abovecaptionskip{2cm}               % Abstand Tabellenunterschrift
+%\mathsurround=3cm 
+
+% Seitenränder für das Textdokument einstellen
+\newgeometry{left=4cm, right=2cm, top=2cm}
+\setlength{\headheight}{1.5cm}                  % Höhe Kopfzeile
+\setlength{\voffset}{2.5cm}                     % Abstand Oberer Rand - Textfeld
+\setlength{\topmargin}{-4.5cm}                  % Abstand Oberer Rand - Text oben
+\setlength{\headsep}{0.5cm}                     % Abstand Kopfzeile - Text oben 
+\setlength{\footskip}{2cm}                      % Abstand Fußzeile - Text unten
+\setlength{\footheight}{1.5cm}                  % Höhe Fußzeile
+
+%Abstand Gleitumgebungen zum Text
+\setlength{\intextsep}{12pt}
+\setlength{\textfloatsep}{12pt}
+
+
+%\overfullrule=20pt
+
+%Abstände Tabelle:
+%\usepackage{caption}
+%\captionsetup[table]{position=below,skip=2cm}
+%\setlength{\abovecaptionskip}{2cm}             %Abstand Tabelle - nachfolgenden Text
+
+
+
+

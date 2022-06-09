@@ -122,6 +122,11 @@ INPUT c:/texlive/2021/texmf-dist/tex/latex/koma-script/typearea.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/koma-script/typearea.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/koma-script/typearea.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/koma-script/scrkbase.sty
+INPUT ./01_Konfig/1.1_pakete.tex
+INPUT ./01_Konfig/1.1_pakete.tex
+INPUT 01_Konfig/1.1_pakete.tex
+INPUT ./01_Konfig/1.1_pakete.tex
+INPUT 01_Konfig/1.1_pakete.tex
 INPUT c:/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
@@ -312,17 +317,6 @@ INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/caption-koma.sto
 INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/caption-koma.sto
 INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/caption-koma.sto
 INPUT c:/texlive/2021/texmf-dist/tex/latex/caption/caption-koma.sto
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/array.sty
@@ -333,18 +327,6 @@ INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/array.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/array.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tabulary/tabulary.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tabulary/tabulary.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tabulary/tabulary.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tabulary/tabulary.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tabulary/tabulary.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tabulary/tabulary.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tabulary/tabulary.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tabulary/tabulary.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tabulary/tabulary.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tabulary/tabulary.sty
-INPUT c:/texlive/2021/texmf-dist/tex/latex/tabulary/tabulary.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/tools/array.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
@@ -597,6 +579,17 @@ INPUT c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty
 INPUT c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty
 INPUT c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty
 INPUT c:/texlive/2021/texmf-dist/tex/generic/xstring/xstring.tex
+INPUT c:/texlive/2021/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+INPUT c:/texlive/2021/texmf-dist/tex/latex/chngcntr/chngcntr.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/listofsymbols/listofsymbols.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/listofsymbols/listofsymbols.sty
 INPUT c:/texlive/2021/texmf-dist/tex/latex/listofsymbols/listofsymbols.sty
@@ -820,6 +813,11 @@ INPUT c:/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.cfg
 INPUT c:/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.cfg
 INPUT c:/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.cfg
 INPUT c:/texlive/2021/texmf-dist/tex/latex/csquotes/csquotes.cfg
+INPUT ./01_Konfig/1.2_einstellungen.tex
+INPUT ./01_Konfig/1.2_einstellungen.tex
+INPUT 01_Konfig/1.2_einstellungen.tex
+INPUT ./01_Konfig/1.2_einstellungen.tex
+INPUT 01_Konfig/1.2_einstellungen.tex
 INPUT c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1ptm.fd
 INPUT c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1ptm.fd
 INPUT c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1ptm.fd
@@ -828,15 +826,21 @@ INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
 INPUT ./01 Vorlage Studium.aux
 INPUT 01 Vorlage Studium.aux
 INPUT 01 Vorlage Studium.aux
-INPUT ./02_titelseite.aux
-INPUT 02_titelseite.aux
-INPUT 02_titelseite.aux
-INPUT ./erklärung.aux
-INPUT erklärung.aux
-INPUT erklärung.aux
+INPUT ./01_Konfig/1.3_titelseite.aux
+INPUT 01_Konfig/1.3_titelseite.aux
+INPUT 01_Konfig/1.3_titelseite.aux
+INPUT ./01_Konfig/1.4_verzeichnisse.aux
+INPUT 01_Konfig/1.4_verzeichnisse.aux
+INPUT 01_Konfig/1.4_verzeichnisse.aux
+INPUT ./02_Dokumente/2.1_Beispielkapitel.aux
+INPUT 02_Dokumente/2.1_Beispielkapitel.aux
+INPUT 02_Dokumente/2.1_Beispielkapitel.aux
 INPUT ./Anhang/anhang.aux
 INPUT Anhang/anhang.aux
 INPUT Anhang/anhang.aux
+INPUT ./01_Konfig/1.5_erklärung.aux
+INPUT 01_Konfig/1.5_erklärung.aux
+INPUT 01_Konfig/1.5_erklärung.aux
 OUTPUT 01 Vorlage Studium.aux
 INPUT c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -927,15 +931,13 @@ INPUT 01 Vorlage Studium.bbl
 INPUT ./01 Vorlage Studium.bbl
 INPUT ./01 Vorlage Studium.bbl
 INPUT 01 Vorlage Studium.bbl
-INPUT ./02_titelseite.tex
-OUTPUT 02_titelseite.aux
-INPUT ./02_titelseite.tex
-INPUT ./02_titelseite.tex
-INPUT ./02_titelseite.tex
-INPUT ./02_titelseite.tex
-INPUT 02_titelseite.tex
-INPUT ./02_titelseite.tex
-INPUT 02_titelseite.tex
+INPUT ./01_Konfig/1.3_titelseite.tex
+OUTPUT 01_Konfig/1.3_titelseite.aux
+INPUT ./01_Konfig/1.3_titelseite.tex
+INPUT ./01_Konfig/1.3_titelseite.tex
+INPUT 01_Konfig/1.3_titelseite.tex
+INPUT ./01_Konfig/1.3_titelseite.tex
+INPUT 01_Konfig/1.3_titelseite.tex
 INPUT c:/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT c:/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT c:/texlive/2021/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -994,25 +996,19 @@ INPUT c:/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmr8t.vf
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT ./erklärung.tex
-OUTPUT erklärung.aux
-INPUT ./erklärung.tex
-INPUT ./erklärung.tex
-INPUT ./erklärung.tex
-INPUT ./erklärung.tex
-INPUT erklärung.tex
-INPUT ./erklärung.tex
-INPUT erklärung.tex
+INPUT ./01_Konfig/1.4_verzeichnisse.tex
+OUTPUT 01_Konfig/1.4_verzeichnisse.aux
+INPUT ./01_Konfig/1.4_verzeichnisse.tex
+INPUT ./01_Konfig/1.4_verzeichnisse.tex
+INPUT 01_Konfig/1.4_verzeichnisse.tex
+INPUT ./01_Konfig/1.4_verzeichnisse.tex
+INPUT 01_Konfig/1.4_verzeichnisse.tex
 INPUT c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1phv.fd
 INPUT c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1phv.fd
 INPUT c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1phv.fd
 INPUT c:/texlive/2021/texmf-dist/tex/latex/psnfss/t1phv.fd
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmrc8t.tfm
-INPUT c:/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmrc8t.vf
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8t.tfm
@@ -1021,8 +1017,8 @@ INPUT 01 Vorlage Studium.toc
 INPUT 01 Vorlage Studium.toc
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmb8t.tfm
-OUTPUT 01 Vorlage Studium.toc
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmro8t.tfm
+OUTPUT 01 Vorlage Studium.toc
 INPUT ./01 Vorlage Studium.lot
 INPUT 01 Vorlage Studium.lot
 INPUT 01 Vorlage Studium.lot
@@ -1032,7 +1028,8 @@ INPUT 01 Vorlage Studium.lof
 INPUT 01 Vorlage Studium.lof
 OUTPUT 01 Vorlage Studium.lof
 OUTPUT 01 Vorlage Studium.sym
-OUTPUT 01 Vorlage Studium.sub
+OUTPUT 01 Vorlage Studium.sub{}
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
 INPUT ./01 Vorlage Studium.syc
 INPUT 01 Vorlage Studium.syc
 INPUT ./01 Vorlage Studium.syc
@@ -1045,17 +1042,25 @@ INPUT ./01 Vorlage Studium.sym
 INPUT 01 Vorlage Studium.sym
 INPUT ./01 Vorlage Studium.sym
 INPUT 01 Vorlage Studium.sym
+INPUT ./02_Dokumente/2.1_Beispielkapitel.tex
+OUTPUT 02_Dokumente/2.1_Beispielkapitel.aux
+INPUT ./02_Dokumente/2.1_Beispielkapitel.tex
+INPUT ./02_Dokumente/2.1_Beispielkapitel.tex
+INPUT 02_Dokumente/2.1_Beispielkapitel.tex
+INPUT ./02_Dokumente/2.1_Beispielkapitel.tex
+INPUT 02_Dokumente/2.1_Beispielkapitel.tex
 INPUT ./img//render.png
 INPUT ./img//render.png
 INPUT img//render.png
 INPUT ./img//render.png
 INPUT ./img//render.png
 INPUT ./Anhang/anhang.tex
+INPUT ./Anhang/anhang.tex
+INPUT ./Anhang/anhang.tex
 OUTPUT Anhang/anhang.aux
 INPUT ./Anhang/anhang.tex
 INPUT ./Anhang/anhang.tex
 INPUT ./Anhang/anhang.tex
-INPUT ./Anhang/anhang.tex
 INPUT Anhang/anhang.tex
 INPUT ./Anhang/anhang.tex
 INPUT Anhang/anhang.tex
@@ -1093,17 +1098,59 @@ INPUT ./test3.pdf
 INPUT ./test3.pdf
 INPUT test3.pdf
 INPUT ./test3.pdf
+INPUT ./test5.pdf
+INPUT test5.pdf
+INPUT ./test5.pdf
+INPUT ./test5.pdf
+INPUT test5.pdf
+INPUT ./test5.pdf
+INPUT ./test5.pdf
+INPUT ./test5.pdf
+INPUT ./test5.pdf
+INPUT ./test5.pdf
+INPUT test5.pdf
+INPUT ./test5.pdf
+INPUT ./test5.pdf
+INPUT ./test5.pdf
+INPUT ./test5.pdf
+INPUT test5.pdf
+INPUT ./test5.pdf
+INPUT ./test5.pdf
+INPUT ./test5.pdf
+INPUT ./test5.pdf
+INPUT test5.pdf
+INPUT ./test5.pdf
+INPUT ./test5.pdf
+INPUT ./test5.pdf
+INPUT test5.pdf
+INPUT ./test5.pdf
+INPUT ./test5.pdf
+INPUT ./test5.pdf
+INPUT test5.pdf
+INPUT ./test5.pdf
 INPUT ./Anhang/tabelle1.png
 INPUT ./Anhang/tabelle1.png
 INPUT Anhang/tabelle1.png
 INPUT ./Anhang/tabelle1.png
 INPUT ./Anhang/tabelle1.png
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmrc8t.tfm
 INPUT c:/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT c:/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT c:/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT c:/texlive/2021/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT c:/texlive/2021/texmf-dist/fonts/tfm/public/lm/ec-lmtt12.tfm
+INPUT ./01_Konfig/1.5_erklärung.tex
+INPUT c:/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
+INPUT c:/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmrc8t.vf
+INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+OUTPUT 01_Konfig/1.5_erklärung.aux
+INPUT ./01_Konfig/1.5_erklärung.tex
+INPUT ./01_Konfig/1.5_erklärung.tex
+INPUT 01_Konfig/1.5_erklärung.tex
+INPUT ./01_Konfig/1.5_erklärung.tex
+INPUT 01_Konfig/1.5_erklärung.tex
 OUTPUT 01 Vorlage Studium.syc
 INPUT ./01 Vorlage Studium.sym
 INPUT 01 Vorlage Studium.sym
@@ -1114,22 +1161,22 @@ INPUT 01 Vorlage Studium.sym
 OUTPUT 01 Vorlage Studium.suc
 INPUT ./01 Vorlage Studium.sym
 INPUT 01 Vorlage Studium.sym
-INPUT ./01 Vorlage Studium.sub
-INPUT 01 Vorlage Studium.sub
-INPUT ./01 Vorlage Studium.sub
-INPUT 01 Vorlage Studium.sub
-INPUT c:/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
-INPUT c:/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT 01 Vorlage Studium.aux
-INPUT ./02_titelseite.aux
-INPUT 02_titelseite.aux
-INPUT 02_titelseite.aux
-INPUT ./erklärung.aux
-INPUT erklärung.aux
-INPUT erklärung.aux
+INPUT ./01_Konfig/1.3_titelseite.aux
+INPUT 01_Konfig/1.3_titelseite.aux
+INPUT 01_Konfig/1.3_titelseite.aux
+INPUT ./01_Konfig/1.4_verzeichnisse.aux
+INPUT 01_Konfig/1.4_verzeichnisse.aux
+INPUT 01_Konfig/1.4_verzeichnisse.aux
+INPUT ./02_Dokumente/2.1_Beispielkapitel.aux
+INPUT 02_Dokumente/2.1_Beispielkapitel.aux
+INPUT 02_Dokumente/2.1_Beispielkapitel.aux
 INPUT ./Anhang/anhang.aux
 INPUT Anhang/anhang.aux
 INPUT Anhang/anhang.aux
+INPUT ./01_Konfig/1.5_erklärung.aux
+INPUT 01_Konfig/1.5_erklärung.aux
+INPUT 01_Konfig/1.5_erklärung.aux
 INPUT 01 Vorlage Studium.run.xml
 OUTPUT 01 Vorlage Studium.run.xml
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc

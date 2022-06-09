@@ -1,0 +1,57 @@
+
+
+%Dies sind die im Main verwendeten Pakete. Genauere Optionen und Einstellungen finden sich unter der cTan des jeweiligen Pakets. (https://ctan.org/)
+
+
+%Allgemeine Pakete
+\usepackage[utf8]{inputenc} 
+\usepackage[ngerman]{babel}                         %Landessprache Deutsch
+\usepackage[T1]{fontenc}                            %Schriftformatierung
+
+% Graphik- und Tabellenpakete
+\usepackage[pdftex]{graphicx}                      %Implementierung 
+\usepackage{pdfpages}
+\graphicspath{{img/} }                              % Ordner für die verwendeten Bilder
+\usepackage{subfig}                                 % Paket für mehrere Graphiken nebeneinander
+%\usepackage{tabularx}                               % Tabellenpaket 1
+%\usepackage{tabulary}                               % Tabellenpaket 2
+\usepackage{array}
+
+
+%Tabellen für Formeln und Gleichungen
+\usepackage{amsmath}
+
+
+%Schriftdarstellung und Textoptimierung 
+\usepackage{mathptmx}               % Schrifteinstellung für Times New Roman
+\usepackage{microtype}              % Blocksatzbildung
+\hyphenation{De-zi-mal-tren-nung}   % Verwendung deutscher Zeilenbrüche
+\usepackage{color}                  % Möglichkeit zum Verwenden von Farben
+\usepackage{lmodern}                % bessere Fonts
+\usepackage{relsize}                % Schriftgröße relativ festlegen
+\usepackage{blindtext}              %Packet Blindtext zum Einfügen von sinnlosen Text
+
+% Pakete für Blattgeometrie und Seitenabstände - genaue Einstellungen unter einstellungen.tex
+\usepackage{geometry}               %zunächst auf Standardeinstellungen belassen...
+\usepackage{setspace}               %Paket für vertikale und horizontale Abstände  
+
+
+%Verzeichnispakete 
+\usepackage[automark]{scrlayer-scrpage}             % Paket für Kopf und Fußzeile
+\usepackage[printonlyused,withpage]{acronym}        % Abkürzungsverzeichnis
+\usepackage{chngcntr}                               % Abbildungsverzeichnis
+\usepackage[final]{listofsymbols}                   % Symbolverzeichnis
+\usepackage{eurosym}                                % Europäsche Symbole
+\usepackage{textcomp}                               % Weitere Symbole
+
+
+
+%Literaturverzeichnispakete und Zitierstileinstellung 
+\usepackage[citestyle=numeric-verb,backend=biber,style=numeric]{biblatex}
+\usepackage[autostyle,german=guillemets,german=quotes]{csquotes}
+\addbibresource{literaturverzeichnis.bib}
+
+
+% Pakete für Hyperlinks (erst ganz am Ende aktivieren!!)
+%\usepackage[colorlinks,pdfpagelabels,pdfstartview = FitH,bookmarksopen = true,bookmarksnumbered = true,linkcolor = black,plainpages = true,hypertexnames = false,citecolor = black] {hyperref} %Erstellen von Hyperlinks
+%\usepackage[figure]{hypcap}                        %Hyperlinks für Abbildungen

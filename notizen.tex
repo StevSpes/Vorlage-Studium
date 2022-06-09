@@ -1,5 +1,8 @@
-\usepackage{comment}
-\begin{comment}
+
+
+Vorlagensammlung zum Schreiben von Text mit Latex:
+
+
 
 Bilder/Graphiken implementieren:
 -> Bildbreite auf Seitenbreite angepasst
@@ -10,46 +13,53 @@ Bilder/Graphiken implementieren:
     p, page of float
     htb, at the excact position
 
+
 caption: Benennung unterhalb der Graphik
 label: Referenz zur Verwendung im Text (Bsp: Wie in Abbildung \ref{fig:render} zu sehen...
 
 \begin{figure}[htb]
     \centering  
-    \includegraphics[keepaspectratio,width=\textwidth,height=\textheight]{render.png}
+    \includegraphics[keepaspectratio,width=\textwidth]{render.png}
     \caption{3D Darstellung des Dampfdruckbehälters}\label{fig:render}
 \end{figure}
 
 
 
 Kapitel und Überschriften anlegen:
-\section{Oberkapitel 1}
-\subsection{Unterkapitel 1.1}
-\section*{Oberkapitel 2} %Kapitel ohne Nummerierung
+\chapter{Oberkapitel 1}
+\section{Unterkapitel 1.1}
+\subsection*{UnterUnterkapitel 2}            % * sorgt für Kapitel ohne Nummerierung
 
 
-Zeilenumbrüche:
+Abstände: 
+%https://www.latex-kurs.de/kurse/Extra/Abstaende_in_Latex.pdf
+
+Vertikale Zeilenumbrüche und Absätze:
 Hier entsteht ein neuer Zeilenbruch\newline
 Hier auch.\\ %gleichwertig mit newline
- 
-Absätze:
-Ein neuer Absatz\par                    %Abstand einmalig in der Präambel festgelegt
+Ein neuer Absatz\parskip                    %Abstand einmalig in der Präambel festgelegt
+Ein gleich großer Absatz\par
 Ein individueller Absatz.\vfill{2cm}   
-%Verschiedene Absätze mit {\bigskip, \smallskip\parskip} etc. 
+%Verschiedene Absätze mit {\bigskip, \smallskip\parskip} etc möglich. 
+
+
+Horizontale Absätz: 
+Zwischen hier & & und hier 
+Hier \quad wurde ein Abstand von einem "m" eingebaut.
+Hier \qquad ein doppelter "m" Abstand
+
 
 Neue Seite: \newpage
 
 
 
-
-
-
-
+Zentrieren von Text und Abbildungen
 \begin{center}
     Dieser Text steht zentriert.
 \end{center}
 
 
-%Tabellen erstellen, siehe 
+Tabellen erstellen, siehe 
 %https://de.wikibooks.org/wiki/LaTeX-Kompendium:_Tabellen
 %https://de.overleaf.com/learn/latex/Tables
 %https://de.wikibooks.org/wiki/LaTeX-W%C3%B6rterbuch:_tabular
@@ -103,10 +113,6 @@ a - b &\geq 0 \text{ wenn } b \leq a \\
 a -b &< 0  
 \end{align*}
 
-
-
-
-\end{comment}
 
 
 

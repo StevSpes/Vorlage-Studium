@@ -1,0 +1,79 @@
+%
+%
+% Verzeichniseinstellungen
+% Schriftart, Abstände etc. werden in einstellungen.tex formatiert. 
+% 
+%
+%\hypersetup{pageanchor=true} %Hyperlinks erstellen
+
+
+%Inhaltsverzeichnis einfügen
+\tableofcontents
+\addcontentsline{toc}{part}{Inhaltsverzeichnis} %Eintrag im LitVz. mit eig. Einst. "part"
+\cleardoublepage{}                              %wichtig, sonst falsche Seitennr.
+%\setcounter{secnumdepth}{2}                    %Tiefe der aufgelisteten Unterkapitel
+
+
+%Tabellenverzeichnis
+\addtocontents{lot}{\protect\addcontentsline{toc}{part}{\listtablename}}
+\listoftables
+\cleardoublepage{}
+% \vspace{2cm} und weitere Einstellung notwendig, falls Verzeichnisse auf einer Seite....
+
+%Abbildungsverzeichnis
+\addtocontents{lof}{\protect\addcontentsline{toc}{part}{\listfigurename}}
+\listoffigures
+\cleardoublepage{}
+
+%Abkürzungsverzeichnis
+\cleardoublepage{}
+\chapter*{Abkürzungsverzeichnis} 
+\addcontentsline{toc}{part}{Abkürzungsverzeichnis} 
+
+
+\begin{acronym}[Bash] %Bash ist die längste Abkürzung, fürs Format
+
+%zu deklarieren mit: 
+%\acro{Abkürzung Eintrag}{Lang ausformuliert}
+% plural mit: \acroplural{dr}[Dres.]{Doktoren}
+
+\acro{KDE}{K Desktop Environment}
+\acro{dr}[Dr.]{Doktor}
+\acroplural{dr}[Dres.]{Doktoren}
+\acro{SQL}{Structured Query Language}
+\acro{Bash}{Bourne-again shell}
+\acro{JDK}{Java Development Kit}
+\acro{VM}{Virtuelle Maschine}
+\acro{I2C}[I²C]{Inter-Integrated Circuit}
+
+\end{acronym}
+
+
+% Symbole für das Symbolverzeichnis deklarieren:
+% nur mit \symE (Abkürzung) verwendete Symbole werden gelistet. 
+%Symbole müssen manuell sortiert werden
+
+
+\opensymdef{}
+
+\newsym[Energie in KJ]{symE}{E}
+\newsym[Masse in kg]{symm}{m}
+\newsym[Lichtgeschwindigkeit in Meter pro Sekunde]{symc}{c}
+
+\closesymdef{}
+
+
+
+%Symbolverzeichnis
+\cleardoublepage{}
+\addcontentsline{toc}{part}{Symbolverzeichnis}
+\listofsymbols{}
+
+
+%Formelverzeichnis - - - - muss noch eingefügt werden...
+\cleardoublepage{}
+\chapter*{Formelverzeichnis} 
+\addcontentsline{toc}{part}{Formelverzeichnis} 
+
+\newpage
+\onehalfspacing{}
