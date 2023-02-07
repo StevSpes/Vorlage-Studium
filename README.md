@@ -7,3 +7,5 @@ Die dazu notwendigen Einstellungen sollen in der ersten Datei main.tex zusammeng
 Vieles ist schon zustande gekommen und mit der Zeit wird fleißig daran weitergefeilt. Fehlende Einstellungen und todos sind unter \Issues einzusehen.
 
 Stand heute 02/2023 ist die Vorlage einsatzbereit. Viele Erklärungen sind hinzugefügt. 
+
+Aktuellste Version: https://de.overleaf.com/read/kxbtmvscpbjf
