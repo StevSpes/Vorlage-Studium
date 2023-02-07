@@ -24,6 +24,7 @@
 
 %Ab hier beginnt das eigentliche Dokument
 
+
 \include{02_Dokumente/2.1_Beispielkapitel}
 % 
 % weitere Dokumente / Kapitel
@@ -31,7 +32,8 @@
 
 
 % Schlussteil: 
-\include{Anhang/anhang}                     % Anhang
+\addtokomafont{chapterentry}{\vspace{-30pt}\rmfamily\mdseries\large \hspace{0pt}}
+\include{Anhang/anhang.tex}                     % Anhang
 \newpage                                        
 \printbibliography[title=Literaturverzeichnis]  % Literaturverzeichnis erstellen
 \include{01_Konfig/1.5_erklärung}               % Eidestattliche Erklärung

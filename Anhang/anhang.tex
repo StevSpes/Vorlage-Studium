@@ -1,38 +1,24 @@
 \newpage
+\pagenumbering{Roman}
+\setcounter{page}{8}    %manuell römische Seitenzahl einstellen! 
+
 \begin{appendix}
+\clearpage{}
 
-%PDF DIN A4 Seiten einbinden: Ort des Dokuments: Hauptordner
-\includepdf[frame,pages=1,scale=0.9,pagecommand=\chapter{Auszug aus einem PTB}]{test3}
-\includepdf[frame,offset=10mm 5mm,pages=2,scale=0.8,noautoscale=true,pagecommand=\chapter{Noch ein Auszug aus einem PTB}]{test5}
-
-
-%DIN A3 pdf Seiten einbinden - benötigt noch weitere Anpassungen (Seitenzahl, Ränder, Geometrie)
-%\KOMAoptions{paper=A3,paper=landscape, DIV=20}
-%\newgeometry{left=4cm, right=2cm, top=2cm}
-%\recalctypearea
-%\addtokomafont{subsection}{\normalfont\large\rmfamily\mdseries\hspace*{3cm}\vspace{2cm}}
-%\includepdf[fitpaper=true,frame,pages=1,scale=0.8,pagecommand=\chapter*{Anhang I: Zeichnung des Dampfablasses}]{test2}
+%Erste Seite eines pdf-Anhangs mit Überschrift:
+\includepdf[scale=0.9,pages=1,pagecommand={\chapter{Ein PDF Anhang} }, offset=0 0.5cm]{test3}
+%Weitere Seiten ohne zusätzliche Überschrift:
+\includepdf[scale=0.9,pages=2-3,pagecommand={}, offset=0 0.5cm]{test3} %Pagecommand, dafür dass die Seitenzahl nicht verschwindet
 
 
-%\KOMAoptions{paper=A4,pagesize, paper=portrait, DIV=20}
-%\newgeometry{left=4cm, right=2cm, top=2cm}
-%\recalctypearea
-% offset=40mm 20mm zum Verschieben der pdf auf der Seite, pagecommand={\thispagestyle{empty}} für Seiten ohne seitenzahl
-
-%delta=8mm 11mm, offset=5mm 7mm,
-%trim=0 40mm 0 40mm, clip,  -> 
 
 %Graphiken einfügen
-\chapter{Auszug aus der Tabelle xy}
+\chapter{Ein Tabellenanhang}
 \begin{figure}[ht]
 	\centering
-  \includegraphics[width=\textwidth]{Anhang/tabelle1.png}
+  \includegraphics[width=\textwidth] {Anhang/tabelle1.png}
 	%\caption{um 30 Grad gedreht}
 	%\label{fig1}
 \end{figure}
-
-
-
-
 
 \end{appendix}

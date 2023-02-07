@@ -25,7 +25,6 @@
 %Schriftdarstellung und Textoptimierung 
 \usepackage{mathptmx}               % Schrifteinstellung für Times New Roman
 \usepackage{microtype}              % Blocksatzbildung
-\hyphenation{De-zi-mal-tren-nung}   % Verwendung deutscher Zeilenbrüche
 \usepackage{color}                  % Möglichkeit zum Verwenden von Farben
 \usepackage{lmodern}                % bessere Fonts
 \usepackage{relsize}                % Schriftgröße relativ festlegen
@@ -44,7 +43,8 @@
 \usepackage{eurosym}                                % Europäsche Symbole
 \usepackage{textcomp}                               % Weitere Symbole
 
-
+\usepackage{float}                                  %Formelverzeichnispakete
+\usepackage{remreset}                               %Formelnummerierung 
 
 %Literaturverzeichnispakete und Zitierstileinstellung 
 \usepackage[citestyle=numeric-verb,backend=biber,style=numeric]{biblatex}
@@ -55,3 +55,6 @@
 % Pakete für Hyperlinks (erst ganz am Ende aktivieren!!)
 %\usepackage[colorlinks,pdfpagelabels,pdfstartview = FitH,bookmarksopen = true,bookmarksnumbered = true,linkcolor = black,plainpages = true,hypertexnames = false,citecolor = black] {hyperref} %Erstellen von Hyperlinks
 %\usepackage[figure]{hypcap}                        %Hyperlinks für Abbildungen
+
+
+\usepackage{etoolbox}

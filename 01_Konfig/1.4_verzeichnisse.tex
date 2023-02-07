@@ -6,6 +6,25 @@
 %
 %\hypersetup{pageanchor=true} %Hyperlinks erstellen
 
+% Seitenränder für das Textdokument einstellen
+\newgeometry{left=4cm, right=2cm, top=2cm}
+\setlength{\topskip}{\ht\strutbox}              % Beseitigt Fehlermeldung
+\setlength{\headheight}{1.5cm}                  % Höhe Kopfzeile
+\setlength{\voffset}{2.5cm}                     % Abstand Oberer Rand - Textfeld
+\setlength{\topmargin}{-4.5cm}                  % Abstand Oberer Rand - Text oben
+\setlength{\headsep}{0.5cm}                     % Abstand Kopfzeile - Text oben 
+%\setlength{\footskip}{0cm}                    % Abstand Fußzeile - Text unten
+\setlength{\footheight}{25pt}                  % Abstand Fußzeile - unten
+
+%Abstand Gleitumgebungen zum Text
+\setlength{\intextsep}{12pt}
+\setlength{\textfloatsep}{12pt}
+\raggedbottom{}                                 % Seite nicht vom unteren Rand ausrichten
+
+%\overfullrule=20pt
+
+
+
 
 %Inhaltsverzeichnis einfügen
 \tableofcontents
@@ -54,7 +73,7 @@
 %Symbole müssen manuell sortiert werden
 
 
-\opensymdef{}
+\opensymdef
 
 \newsym[Energie in KJ]{symE}{E}
 \newsym[Masse in kg]{symm}{m}
@@ -70,9 +89,11 @@
 \listofsymbols{}
 
 
-%Formelverzeichnis - - - - muss noch eingefügt werden...
+%Formelverzeichnis
 \cleardoublepage{}
-\chapter*{Formelverzeichnis} 
+%\chapter*{Formelverzeichnis} 
+
+\listof{formel}{Formelverzeichnis}
 \addcontentsline{toc}{part}{Formelverzeichnis} 
 
 \newpage
